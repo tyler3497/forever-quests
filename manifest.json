@@ -1,0 +1,48 @@
+{
+  "formatVersion": 1,
+  "dataVersion": "1.0.0",
+  "generatedAt": "2026-11-01T19:46:02Z",
+  "source": {
+    "repo": "Questie/QuestieDB",
+    "commit": "8f55e69de02e8a67229c4a54575f899244359cb8",
+    "file": "data/Forever/foreverQuestDB.lua",
+    "fileSha256": "621d4a1670232c047e7d171d8f1fdbd31581458935ee59dd70836016838dc942",
+    "zoneMapping": [
+      "support/Forever/Zones/areaIdToUiMapId.lua",
+      "support/Zones/areaIdToUiMapId.lua"
+    ],
+    "note": "QuestieDB Forever dataset; not yet verified against the live Forever client (launches 2026-11-04)."
+  },
+  "questCount": 4244,
+  "zoneCount": 91,
+  "questsWithArea": 3260,
+  "questsWithSort": 983,
+  "questsWithoutZoneOrSort": 1,
+  "unmappedAreaIds": [
+    {
+      "areaId": 25,
+      "questCount": 15
+    },
+    {
+      "areaId": 1417,
+      "questCount": 10
+    }
+  ],
+  "files": [
+    {
+      "path": "data/quests.json",
+      "bytes": 1738102,
+      "sha256": "f59ab22907fdd82f0982017623d5f29a9e5df35a930203b3d0b26f3ed4828a8f"
+    },
+    {
+      "path": "data/zones.json",
+      "bytes": 4116,
+      "sha256": "d8f72b1d2c97170e0b16f0d77c0220557a1335ef9688a62a1a362d00f400721a"
+    },
+    {
+      "path": "data/QuestDB.lua",
+      "bytes": 3394042,
+      "sha256": "a1a8e798846b74def72c74f58d13dd50f2723fb0c1810f79940ab256d9fae37c"
+    }
+  ]
+}
