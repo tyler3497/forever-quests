@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "dataVersion": "1.2.0",
-  "generatedAt": "2026-11-01T21:08:42Z",
+  "dataVersion": "1.3.0",
+  "generatedAt": "2026-11-01T22:47:57Z",
   "sources": [
     {
       "repo": "Questie/QuestieDB",
@@ -28,7 +28,7 @@
         "money rewards",
         "XP rewards"
       ],
-      "note": "Reputation columns intentionally unused; reputation stays QuestieDB-only (NorgannonDB for Zephras quests)."
+      "note": "Reputation columns intentionally unused; reputation stays QuestieDB-only (NorgannonDB for confirmed-Forever quests)."
     },
     {
       "repo": "zmarotrix/NorgannonDB",
@@ -36,22 +36,26 @@
       "schema": "1.4",
       "file": "data/quests.lua",
       "usedFor": [
-        "Zephras Isle quests (109): names, levels, starters, finishers, objectives, prerequisites, chains, reputation rewards"
+        "Zephras Isle quests (109, v1.2.0)",
+        "remaining confirmed-Forever quests (219, v1.3.0): names, levels, starters, finishers, objectives, prerequisites, chains, reputation rewards",
+        "referenced quests (58, v1.3.0): NorgannonDB records only, no TDB data"
       ]
     }
   ],
-  "note": "QuestieDB Forever dataset + TDB rewards + NorgannonDB Zephras Isle quests; not yet verified against the live Forever client (launches 2026-11-04).",
-  "questCount": 4353,
-  "zoneCount": 92,
-  "questsWithArea": 3369,
-  "questsWithSort": 983,
+  "note": "QuestieDB Forever dataset + TDB rewards + NorgannonDB confirmed-Forever quests; not yet verified against the live Forever client (launches 2026-11-04).",
+  "questCount": 4630,
+  "zoneCount": 96,
+  "questsWithArea": 3483,
+  "questsWithSort": 1146,
   "questsWithoutZoneOrSort": 1,
-  "questsWithTdbRewards": 4172,
-  "questsWithItems": 1306,
-  "questsWithChoice": 572,
-  "questsWithXp": 3716,
-  "questsWithMoney": 2461,
+  "questsWithTdbRewards": 4389,
+  "questsWithItems": 1335,
+  "questsWithChoice": 595,
+  "questsWithXp": 3931,
+  "questsWithMoney": 2522,
   "zephrasQuests": 109,
+  "confirmedForeverQuests": 327,
+  "referencedOnlyQuests": 58,
   "unmappedAreaIds": [
     {
       "areaId": 25,
@@ -60,23 +64,35 @@
     {
       "areaId": 1417,
       "questCount": 10
+    },
+    {
+      "areaId": 16611,
+      "questCount": 9
+    },
+    {
+      "areaId": 16732,
+      "questCount": 2
+    },
+    {
+      "areaId": 16919,
+      "questCount": 4
     }
   ],
   "files": [
     {
       "path": "data/quests.json",
-      "bytes": 2412858,
-      "sha256": "347f124ef0eda0e6fd3bf3d0a06597d58ebac8eea3aeb7daa88616163acdb66c"
+      "bytes": 2559371,
+      "sha256": "e79cb39ddba55cc66a5238b07f83c5a16e3f8521b847cc2cdc641a52bb776c46"
     },
     {
       "path": "data/zones.json",
-      "bytes": 6361,
-      "sha256": "0df43abfe9a2c123f27c6946cd11077e789ed4aec0ce19ece7f473e2c0a89ae6"
+      "bytes": 6580,
+      "sha256": "5938231396a0da18282529409b67bb6e1490d0c5768bd56cb65ef6bce512c463"
     },
     {
       "path": "data/QuestDB.lua",
-      "bytes": 4936042,
-      "sha256": "a74e4337ae6bd1b4a84868962d9e78985f97eaa0e37e4e00abcaaeac36b106b3"
+      "bytes": 5228270,
+      "sha256": "7afac558ea512d0ee85b494bf3ef43eab71715e91faad709a806e95265ac3170"
     }
   ]
 }

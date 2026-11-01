@@ -6,8 +6,11 @@ other. The companion app (Tyler's WoW Tools) downloads updates from here.
 
 ## Status
 
-- **Version 1.2.0** — 4,353 quests across 92 zones, including the 109
-  Zephras Isle quests (see below).
+- **Version 1.3.0** — 4,630 quests across 96 zones: the full
+  confirmed-Forever set is now in (the 108 Zephras Isle quests from
+  v1.2.0 plus the other 219 confirmed quests), along with 58 further
+  quests that confirmed quests reference, imported from NorgannonDB
+  alone so no chain or prerequisite link dangles.
 - **Not yet verified against the live Forever client.** The source data is
   QuestieDB's Forever dataset plus TrinityCore's Forever world database
   and NorgannonDB (see Provenance), but no in-game cross-check has run
@@ -74,24 +77,30 @@ from QuestieDB only, per the project's source split.
 - **XP/money difficulty values are unresolved.** `rewards.xp` and
   `rewards.money` carry the TDB's difficulty + multiplier, not final
   XP/copper numbers. Only `money.bonus` is directly usable copper.
-- **TDB reputation is unused by design** (see above). Quests with no
-  QuestieDB reputation entry have no reputation reward here, even if the
-  TDB has one. Zephras quests are the exception: their reputation comes
-  from NorgannonDB, labeled as such.
 - **TDB-only quests are mostly not imported.** The TDB holds 48,801 quest
   rows across all expansions; most are not Forever quests. The exception
-  is Zephras Isle: 109 quests (108 confirmed in both the TDB and
-  NorgannonDB with the Forever `Expansion = -2` marker, plus quest 94493
-  "A Sacrifice in Vain", a Zephras quest found in NorgannonDB and
-  referenced by five imported quests) were imported in v1.2.0 as area
-  16593, uiMapId 2521. The other 218 confirmed-Forever quests (new
-  content in other sorts and existing zones) are still pending import.
+  is the confirmed-Forever set: 327 quests (108 Zephras Isle quests in
+  v1.2.0, the other 219 in v1.3.0) that appear in both the TDB and
+  NorgannonDB with the Forever `Expansion = -2` marker. A further 58
+  quests in v1.3.0 are referenced by confirmed quests (prerequisites,
+  exclusivity, chain links) but are not themselves TDB-confirmed; they
+  were imported from NorgannonDB alone — no TDB rewards or chain data —
+  so that no reference in the database dangles, the same rule used for
+  Zephras quest 94493 in v1.2.0. The 545 NorgannonDB high-ID quests
+  with no TDB row at all remain unimported except where referenced.
+- **TDB reputation is unused by design** (see above). Quests with no
+  QuestieDB reputation entry have no reputation reward here, even if the
+  TDB has one. Zephras and other confirmed-Forever quests are the
+  exception: their reputation comes from NorgannonDB, labeled as such.
 - **Starter/finisher names are not included** — only NPC/object/item IDs.
   A future `data/npcs.json` name map (from QuestieDB's Forever NPC data)
   would fill this in.
-- **2 area IDs have no UI map mapping** in QuestieDB's zone tables, so
+- **5 area IDs have no UI map mapping** in QuestieDB's zone tables, so
   their quests carry `areaId` but no `uiMapId`: area 25 (15 quests) and
-  area 1417 (10 quests). Those quests are still in `quests.json`.
+  area 1417 (10 quests) from v1.0.0, plus 16611 (9 quests), 16732
+  (2 quests), and 16919 (4 quests) from v1.3.0 — probable new Forever
+  zones whose maps are not in QuestieDB's snapshot. Those quests are
+  still in `quests.json`.
 - **1 quest has neither a zone nor a sort** in the source data.
 - **983 quests belong to a sort category** (class/profession/…) rather
   than a zone; they are in `quests.json` with `sortId` set and do not

@@ -203395,6 +203395,48 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 3456,
     },
+    [90902] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          244808,
+        },
+      },
+      ["id"] = 90902,
+      ["name"] = "Rediscovering the Light",
+      ["objectivesText"] = {
+        "Heal 5 Injured Deathguard with your Holy Light ability.",
+      },
+      ["preQuestSingle"] = {
+        98601,
+      },
+      ["questLevel"] = 2,
+      ["requiredClasses"] = 2,
+      ["requiredLevel"] = 2,
+      ["requiredRaces"] = 16,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -141,
+      ["startedBy"] = {
+        ["npcs"] = {
+          244808,
+        },
+      },
+      ["zoneOrSort"] = -141,
+    },
     [9091] = {
       ["areaId"] = 3456,
       ["finishedBy"] = {
@@ -205281,6 +205323,80 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 3456,
     },
+    [91208] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          244808,
+        },
+      },
+      ["id"] = 91208,
+      ["name"] = "Coming to Terms",
+      ["objectivesText"] = {
+        "Find the Frightened Paladin in Deathknell.",
+      },
+      ["questLevel"] = 4,
+      ["requiredClasses"] = 2,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 16,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -141,
+      ["startedBy"] = {
+        ["npcs"] = {
+          244808,
+        },
+      },
+      ["zoneOrSort"] = -141,
+    },
+    [91209] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          246152,
+        },
+      },
+      ["id"] = 91209,
+      ["name"] = "Continue Your Training",
+      ["objectivesText"] = {
+        "Follow the road east out of Deathknell to find the town of Brill. Report to Shari Stilwell to continue your training.",
+      },
+      ["preQuestSingle"] = {
+        91208,
+      },
+      ["questLevel"] = 4,
+      ["requiredClasses"] = 2,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 16,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 2,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -141,
+      ["startedBy"] = {
+        ["npcs"] = {
+          244808,
+        },
+      },
+      ["zoneOrSort"] = -141,
+    },
     [9121] = {
       ["areaId"] = 139,
       ["exclusiveTo"] = {
@@ -205725,6 +205841,110 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 139,
     },
+    [91282] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          246349,
+        },
+      },
+      ["id"] = 91282,
+      ["name"] = "A Second Home",
+      ["objectivesText"] = {
+        "Find the fortress of Bandarion Keep and report to Breton Samuels there.",
+      },
+      ["questLevel"] = 11,
+      ["requiredClasses"] = 2,
+      ["requiredLevel"] = 8,
+      ["requiredRaces"] = 16,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 2,
+          ["multiplier"] = 1,
+        },
+        ["xp"] = {
+          ["difficulty"] = 2,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -141,
+      ["startedBy"] = {
+        ["npcs"] = {
+          246152,
+        },
+      },
+      ["zoneOrSort"] = -141,
+    },
+    [91285] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          246349,
+        },
+      },
+      ["id"] = 91285,
+      ["name"] = "Murlocs at the Gates",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            250283,
+          },
+          {
+            250282,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Slay 8 Vile Fin Attackers and 8 Vile Fin Seers and report back to Breton Samuels when it is done.",
+      },
+      ["questLevel"] = 11,
+      ["requiredClasses"] = 2,
+      ["requiredLevel"] = 7,
+      ["requiredRaces"] = 16,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 246164,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 246165,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -141,
+      ["startedBy"] = {
+        ["npcs"] = {
+          246349,
+        },
+      },
+      ["zoneOrSort"] = -141,
+    },
     [9129] = {
       ["areaId"] = 139,
       ["finishedBy"] = {
@@ -205779,6 +205999,54 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 139,
+    },
+    [91294] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          246378,
+        },
+      },
+      ["id"] = 91294,
+      ["name"] = "Touring the Grounds",
+      ["objectivesText"] = {
+        "Speak to the residents of Bandarion Keep.",
+      },
+      ["preQuestSingle"] = {
+        91285,
+      },
+      ["questLevel"] = 11,
+      ["requiredClasses"] = 2,
+      ["requiredLevel"] = 8,
+      ["requiredRaces"] = 16,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -141,
+      ["startedBy"] = {
+        ["npcs"] = {
+          246349,
+        },
+      },
+      ["zoneOrSort"] = -141,
     },
     [913] = {
       ["areaId"] = 17,
@@ -205912,6 +206180,128 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 139,
+    },
+    [91316] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          246393,
+        },
+      },
+      ["id"] = 91316,
+      ["name"] = "Making Repairs",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            246213,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Collect 12 pieces of Sturdy Lumber from Shadowvale in Tirisfal Glades.",
+      },
+      ["questLevel"] = 11,
+      ["requiredClasses"] = 2,
+      ["requiredLevel"] = 8,
+      ["requiredRaces"] = 16,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 246265,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -141,
+      ["startedBy"] = {
+        ["npcs"] = {
+          246393,
+        },
+      },
+      ["zoneOrSort"] = -141,
+    },
+    [91317] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          246378,
+        },
+      },
+      ["id"] = 91317,
+      ["name"] = "The Tarnished",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            259434,
+          },
+          {
+            259433,
+          },
+        },
+        ["items"] = {
+          {
+            270435,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Slay 8 Tarnished Drudges, 6 Tarnished Zealots, and collect the head of Commander Rudolph Gelhardt in Tirisfal Glades.",
+      },
+      ["preQuestSingle"] = {
+        91294,
+      },
+      ["questLevel"] = 12,
+      ["requiredClasses"] = 2,
+      ["requiredLevel"] = 9,
+      ["requiredRaces"] = 16,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -141,
+      ["startedBy"] = {
+        ["npcs"] = {
+          246378,
+        },
+      },
+      ["zoneOrSort"] = -141,
     },
     [9132] = {
       ["areaId"] = 139,
@@ -206577,6 +206967,692 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 188,
+    },
+    [91723] = {
+      ["areaId"] = 12,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          248242,
+        },
+      },
+      ["id"] = 91723,
+      ["name"] = "Delicate Instruments",
+      ["nextQuestInChain"] = 91724,
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            476,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Kill 8 Kobold Geomancers in Jasperlode Mine, then return to Hamish Bergwort in the Tower of Azora.",
+      },
+      ["questLevel"] = 10,
+      ["requiredLevel"] = 7,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 75,
+            ["factionId"] = 72,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          248242,
+        },
+      },
+      ["zoneOrSort"] = 12,
+    },
+    [91724] = {
+      ["areaId"] = 12,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          248242,
+        },
+      },
+      ["id"] = 91724,
+      ["name"] = "Delicate Instruments",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            474,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Kill 6 Defias Rogue Wizards at Stone Cairn Lake, then return to Hamish Bergwort in the Tower of Azora.",
+      },
+      ["preQuestGroup"] = {
+        91723,
+      },
+      ["questLevel"] = 10,
+      ["requiredLevel"] = 7,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 72,
+          },
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          248242,
+        },
+      },
+      ["zoneOrSort"] = 12,
+    },
+    [91725] = {
+      ["areaId"] = 12,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          248248,
+        },
+      },
+      ["id"] = 91725,
+      ["name"] = "Stolen Enchanting Supplies",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            247805,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Collect 5 Stolen Enchanting Supplies from gnoll camps around Stone Cairn Lake, then return to Blixie Fitzwink near the Tower of Azora.",
+      },
+      ["questLevel"] = 10,
+      ["requiredLevel"] = 7,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 75,
+            ["factionId"] = 72,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          248248,
+        },
+      },
+      ["zoneOrSort"] = 12,
+    },
+    [91733] = {
+      ["areaId"] = 12,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          248265,
+        },
+      },
+      ["id"] = 91733,
+      ["name"] = "Downstream",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            247817,
+          },
+          {
+            247813,
+          },
+          {
+            247818,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Collect the Waterlogged Axe, Waterlogged Saw, and Waterlogged Toolbox that have washed downstream from Eastvale Logging Camp, then return to Ormin Pelford.",
+      },
+      ["questLevel"] = 10,
+      ["requiredLevel"] = 7,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 75,
+            ["factionId"] = 72,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          248265,
+        },
+      },
+      ["zoneOrSort"] = 12,
+    },
+    [91741] = {
+      ["areaId"] = 12,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          951,
+        },
+      },
+      ["id"] = 91741,
+      ["name"] = "Nibbled-On Book",
+      ["nextQuestInChain"] = 92124,
+      ["objectivesText"] = {
+        "Return the book to Brother Paxton.",
+      },
+      ["questLevel"] = 2,
+      ["requiredLevel"] = 1,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 247857,
+      ["startedBy"] = {
+        ["items"] = {
+          247834,
+        },
+      },
+      ["zoneOrSort"] = 12,
+    },
+    [91743] = {
+      ["areaId"] = 12,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          951,
+        },
+      },
+      ["id"] = 91743,
+      ["name"] = "Rascally Rodents",
+      ["nextQuestInChain"] = 91745,
+      ["objectives"] = {
+        ["items"] = {
+          {
+            247839,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Retrieve 8 Stolen Books from kobolds in Northshire Valley and return them to Brother Paxton.",
+      },
+      ["preQuestGroup"] = {
+        92124,
+      },
+      ["preQuestSingle"] = {
+        91741,
+      },
+      ["questLevel"] = 2,
+      ["requiredLevel"] = 1,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["items"] = "norgannondb",
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 247840,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 247841,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 247846,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 72,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          951,
+        },
+      },
+      ["zoneOrSort"] = 12,
+    },
+    [91745] = {
+      ["areaId"] = 12,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          247226,
+        },
+      },
+      ["id"] = 91745,
+      ["name"] = "Mining Consultant",
+      ["nextQuestInChain"] = 91752,
+      ["objectivesText"] = {
+        "Talk to Kelsey Fargo outside the Echo Ridge Mine in Northshire Valley.",
+      },
+      ["preQuestGroup"] = {
+        91743,
+      },
+      ["preQuestSingle"] = {
+        91743,
+      },
+      ["questLevel"] = 3,
+      ["requiredLevel"] = 1,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 72,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          951,
+        },
+      },
+      ["zoneOrSort"] = 12,
+    },
+    [91752] = {
+      ["areaId"] = 12,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          197,
+        },
+      },
+      ["id"] = 91752,
+      ["name"] = "The Big Picture",
+      ["nextQuestInChain"] = 91758,
+      ["objectives"] = {
+        ["items"] = {
+          {
+            247886,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Retrieve a Sack of \"Picture\" Books from Shinyfinder Narf. Bring the sack to Marshal McBride just inside Northshire's Abbey.",
+      },
+      ["preQuestGroup"] = {
+        91745,
+      },
+      ["preQuestSingle"] = {
+        91745,
+      },
+      ["questLevel"] = 3,
+      ["requiredLevel"] = 1,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 72,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          247226,
+        },
+      },
+      ["zoneOrSort"] = 12,
+    },
+    [91758] = {
+      ["areaId"] = 12,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          248415,
+        },
+      },
+      ["id"] = 91758,
+      ["name"] = "Follow That Kobold!",
+      ["nextQuestInChain"] = 91772,
+      ["objectivesText"] = {
+        "Speak to Tordrin Sternblade near the stable behind Northshire's Abbey.",
+      },
+      ["preQuestGroup"] = {
+        91752,
+      },
+      ["preQuestSingle"] = {
+        91752,
+      },
+      ["questLevel"] = 4,
+      ["requiredLevel"] = 1,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 72,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          197,
+        },
+      },
+      ["zoneOrSort"] = 12,
+    },
+    [91772] = {
+      ["areaId"] = 12,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          240,
+        },
+      },
+      ["id"] = 91772,
+      ["name"] = "Shhh! We're Hunting Kobolds",
+      ["nextQuestInChain"] = 91775,
+      ["objectives"] = {
+        ["objects"] = {
+          {
+            563442,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Follow the kobold tracks and report to Marshal Dughan in Goldshire with your findings and the Kobold Tracking Kit.",
+      },
+      ["preQuestGroup"] = {
+        91758,
+      },
+      ["preQuestSingle"] = {
+        91758,
+      },
+      ["questLevel"] = 4,
+      ["requiredLevel"] = 1,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 72,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 247970,
+      ["startedBy"] = {
+        ["npcs"] = {
+          248415,
+        },
+      },
+      ["zoneOrSort"] = 12,
+    },
+    [91775] = {
+      ["areaId"] = 12,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          240,
+        },
+      },
+      ["id"] = 91775,
+      ["name"] = "Book Return",
+      ["nextQuestInChain"] = 91777,
+      ["objectives"] = {
+        ["items"] = {
+          {
+            248002,
+          },
+          {
+            248001,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Find 6 Lost Books and \"Fun with Elementals\" and return them to Marshal Dughan.",
+      },
+      ["preQuestGroup"] = {
+        91772,
+      },
+      ["preQuestSingle"] = {
+        91772,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 1,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 279936,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 72,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 279935,
+      ["startedBy"] = {
+        ["npcs"] = {
+          240,
+        },
+      },
+      ["zoneOrSort"] = 12,
+    },
+    [91777] = {
+      ["areaId"] = 12,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          951,
+        },
+      },
+      ["id"] = 91777,
+      ["name"] = "Rare Books",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            248003,
+          },
+          {
+            248004,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Recover \"Geomancy for Curious Young Wizards\" and \"Arcane Explainer: Magical Stuff in Simple Words\" and return them to Brother Paxton inside Northshire's Abbey.",
+      },
+      ["preQuestGroup"] = {
+        91775,
+      },
+      ["preQuestSingle"] = {
+        91775,
+      },
+      ["questLevel"] = 7,
+      ["requiredLevel"] = 1,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 248008,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 248007,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 248006,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 248005,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 276685,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 72,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          240,
+        },
+      },
+      ["zoneOrSort"] = 12,
     },
     [9178] = {
       ["areaId"] = 139,
@@ -207353,6 +208429,110 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 139,
+    },
+    [91920] = {
+      ["areaId"] = 130,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1937,
+        },
+      },
+      ["id"] = 91920,
+      ["name"] = "Wild Eyes",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            730,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Gather 3 murloc eyes and bring them to Apothecary Renferrel at the Sepulcher.",
+      },
+      ["questLevel"] = 11,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 4597,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 4596,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          1951,
+        },
+      },
+      ["zoneOrSort"] = 130,
+    },
+    [91921] = {
+      ["areaId"] = 130,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1951,
+        },
+      },
+      ["id"] = 91921,
+      ["name"] = "Return to Quinn (Again)",
+      ["objectivesText"] = {
+        "Bring Quinn's potion to Quinn Yorick at the Ivar Patch, north of the Sepulcher.",
+      },
+      ["preQuestSingle"] = {
+        91920,
+      },
+      ["questLevel"] = 11,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 75,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 248930,
+      ["startedBy"] = {
+        ["npcs"] = {
+          1937,
+        },
+      },
+      ["zoneOrSort"] = 130,
     },
     [9194] = {
       ["areaId"] = 139,
@@ -208377,6 +209557,57 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 139,
+    },
+    [92124] = {
+      ["areaId"] = 12,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          247229,
+        },
+      },
+      ["id"] = 92124,
+      ["name"] = "Book Inventory",
+      ["nextQuestInChain"] = 91743,
+      ["objectivesText"] = {
+        "Speak to Daniel, Brother Paxton's assistant in the library.",
+      },
+      ["preQuestGroup"] = {
+        91741,
+      },
+      ["preQuestSingle"] = {
+        91741,
+      },
+      ["questLevel"] = 2,
+      ["requiredLevel"] = 1,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 1,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 10,
+            ["factionId"] = 72,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 1,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          951,
+        },
+      },
+      ["zoneOrSort"] = 12,
     },
     [9213] = {
       ["areaId"] = 139,
@@ -209749,6 +210980,69 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 3456,
     },
+    [92401] = {
+      ["areaId"] = 16611,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          250686,
+        },
+      },
+      ["id"] = 92401,
+      ["name"] = "A Frightened Request",
+      ["objectivesText"] = {
+        "Investigate the disappearance of Edward Heartweaver in the Ruins of Lordaeron.",
+      },
+      ["questLevel"] = 22,
+      ["requiredLevel"] = 15,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 251485,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 251486,
+          },
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 150,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          250686,
+        },
+      },
+      ["triggerEnd"] = {
+        ["text"] = "Explore",
+        ["zones"] = {
+          {
+            ["coords"] = {
+              {
+                67.69,
+                13.55,
+              },
+            },
+            ["zoneId"] = 1497,
+          },
+        },
+      },
+      ["zoneOrSort"] = 16611,
+    },
     [9241] = {
       ["areaId"] = 3456,
       ["finishedBy"] = {
@@ -209855,6 +211149,124 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 3456,
+    },
+    [92421] = {
+      ["areaId"] = 16611,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          266484,
+        },
+      },
+      ["id"] = 92421,
+      ["name"] = "Light's Justice",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            268580,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Collect 25 Intact Limbs within The Ruins of Lordaeron for Morbin Lightbane in the Undercity.",
+      },
+      ["questLevel"] = 22,
+      ["requiredLevel"] = 15,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 279874,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 279875,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 7,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 150,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          266484,
+        },
+      },
+      ["zoneOrSort"] = 16611,
+    },
+    [92422] = {
+      ["areaId"] = 16611,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          251001,
+        },
+      },
+      ["id"] = 92422,
+      ["name"] = "The Wrath of Rath'mael",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            250657,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Kill Rath'mael in the Ruins of Lordaeron for Deathguard Kristof in Brill.",
+      },
+      ["questLevel"] = 22,
+      ["requiredLevel"] = 15,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 251533,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 251534,
+          },
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 150,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          251001,
+        },
+      },
+      ["zoneOrSort"] = 16611,
     },
     [9243] = {
       ["areaId"] = 3456,
@@ -210963,6 +212375,49 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 16593,
     },
+    [92479] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          248415,
+        },
+      },
+      ["id"] = 92479,
+      ["name"] = "A Scribbled Letter",
+      ["objectivesText"] = {
+        "Read the Scribbled Letter and speak to Tordrin Stemblade in Northshire Abbey.",
+      },
+      ["preQuestGroup"] = {
+        7,
+      },
+      ["questLevel"] = 1,
+      ["requiredClasses"] = 4,
+      ["requiredLevel"] = 1,
+      ["requiredRaces"] = 1,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 72,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -81,
+      ["sourceItemId"] = 251941,
+      ["startedBy"] = {
+        ["npcs"] = {
+          197,
+        },
+      },
+      ["zoneOrSort"] = -81,
+    },
     [9248] = {
       ["areaId"] = 1377,
       ["finishedBy"] = {
@@ -211023,6 +212478,193 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 1377,
+    },
+    [92482] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          251376,
+        },
+      },
+      ["id"] = 92482,
+      ["name"] = "The Way of the Hunter",
+      ["objectivesText"] = {
+        "Read the Scribbled Note and then speak with Tai'ree Farsight in Thendal Grove.",
+      },
+      ["preQuestGroup"] = {
+        92461,
+      },
+      ["preQuestSingle"] = {
+        92461,
+      },
+      ["questLevel"] = 2,
+      ["requiredClasses"] = 4,
+      ["requiredLevel"] = 2,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 2778,
+          },
+          {
+            ["amount"] = 50,
+            ["factionId"] = 2779,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -261,
+      ["sourceItemId"] = 282421,
+      ["startedBy"] = {
+        ["npcs"] = {
+          251361,
+        },
+      },
+      ["zoneOrSort"] = -261,
+    },
+    [92483] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          251389,
+        },
+      },
+      ["id"] = 92483,
+      ["name"] = "At Home in the Shadows",
+      ["objectivesText"] = {
+        "Read the Simple Note then speak with Akeri Duskblade within the watchtower in Thendal Grove.",
+      },
+      ["preQuestGroup"] = {
+        92461,
+      },
+      ["questLevel"] = 2,
+      ["requiredClasses"] = 8,
+      ["requiredLevel"] = 2,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 2778,
+          },
+          {
+            ["amount"] = 50,
+            ["factionId"] = 2779,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -162,
+      ["sourceItemId"] = 282422,
+      ["startedBy"] = {
+        ["npcs"] = {
+          251361,
+        },
+      },
+      ["zoneOrSort"] = -162,
+    },
+    [92484] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          251374,
+        },
+      },
+      ["id"] = 92484,
+      ["name"] = "Embracing the Elements",
+      ["objectivesText"] = {
+        "Examine the Humming Recall Crystal then speak with Windshaper Boro in Thendal Grove.",
+      },
+      ["preQuestGroup"] = {
+        92461,
+      },
+      ["questLevel"] = 2,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 2,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 2778,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["sourceItemId"] = 282418,
+      ["startedBy"] = {
+        ["npcs"] = {
+          251361,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
+    [92485] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          251373,
+        },
+      },
+      ["id"] = 92485,
+      ["name"] = "A Student of Nature",
+      ["objectivesText"] = {
+        "Read the Folded Parchment then speak with Xyton Silverwind in Thendal Grove.",
+      },
+      ["preQuestGroup"] = {
+        92461,
+      },
+      ["preQuestSingle"] = {
+        92461,
+      },
+      ["questLevel"] = 2,
+      ["requiredClasses"] = 1024,
+      ["requiredLevel"] = 2,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 2778,
+          },
+          {
+            ["amount"] = 50,
+            ["factionId"] = 2779,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -263,
+      ["sourceItemId"] = 282420,
+      ["startedBy"] = {
+        ["npcs"] = {
+          251361,
+        },
+      },
+      ["zoneOrSort"] = -263,
     },
     [925] = {
       ["finishedBy"] = {
@@ -211517,6 +213159,52 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 16593,
+    },
+    [92532] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          251964,
+        },
+      },
+      ["id"] = 92532,
+      ["name"] = "The Warrior's Path",
+      ["objectivesText"] = {
+        "Read the Crumpled Note you've been given, then seek out Blademaster Ren inside the Thendal Village watchtower.",
+      },
+      ["preQuestGroup"] = {
+        92461,
+      },
+      ["questLevel"] = 2,
+      ["requiredClasses"] = 1,
+      ["requiredLevel"] = 2,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 2778,
+          },
+          {
+            ["amount"] = 50,
+            ["factionId"] = 2779,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -81,
+      ["sourceItemId"] = 282419,
+      ["startedBy"] = {
+        ["npcs"] = {
+          251361,
+        },
+      },
+      ["zoneOrSort"] = -81,
     },
     [92544] = {
       ["areaId"] = 16593,
@@ -213876,6 +215564,57 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 16593,
     },
+    [92706] = {
+      ["areaId"] = 17,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3391,
+        },
+      },
+      ["id"] = 92706,
+      ["name"] = "WANTED: Bruuz",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            253710,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Bring Bruuz's Dorsal Fin to Gazlowe in Ratchet.",
+      },
+      ["questLevel"] = 20,
+      ["requiredLevel"] = 15,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 470,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["objects"] = {
+          3972,
+        },
+      },
+      ["zoneOrSort"] = 17,
+    },
     [92708] = {
       ["areaId"] = 16593,
       ["finishedBy"] = {
@@ -214178,6 +215917,112 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 16593,
+    },
+    [92742] = {
+      ["areaId"] = 40,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          253092,
+        },
+      },
+      ["id"] = 92742,
+      ["name"] = "Testing the Wells",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            254546,
+          },
+          {
+            254547,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Use the Well Water Sample Kit to collect samples from the wells at the Jansen Stead and the Molsen Farm.",
+      },
+      ["questLevel"] = 12,
+      ["requiredLevel"] = 9,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 72,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 254545,
+      ["startedBy"] = {
+        ["npcs"] = {
+          253092,
+        },
+      },
+      ["zoneOrSort"] = 40,
+    },
+    [92744] = {
+      ["areaId"] = 40,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          253092,
+        },
+      },
+      ["id"] = 92744,
+      ["name"] = "Murloc Gills",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            254548,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Alba Fairmoon wants you to collect 7 Longshore Murloc Gills along the shoreline of Westfall.",
+      },
+      ["questLevel"] = 12,
+      ["requiredLevel"] = 9,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 72,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          253092,
+        },
+      },
+      ["zoneOrSort"] = 40,
     },
     [928] = {
       ["areaId"] = 188,
@@ -214738,6 +216583,170 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 141,
+    },
+    [92909] = {
+      ["areaId"] = 40,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          253395,
+        },
+      },
+      ["id"] = 92909,
+      ["name"] = "Harvesting the Harvesters",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            255007,
+          },
+          {
+            255010,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Ozwin Ironsprocket at Saldean's Farm wants you to bring him 14 Golem Isosprings and 5 Harvester Gyrostabilizers.",
+      },
+      ["questLevel"] = 15,
+      ["requiredLevel"] = 8,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 54,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          253395,
+        },
+      },
+      ["zoneOrSort"] = 40,
+    },
+    [92910] = {
+      ["areaId"] = 40,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          253395,
+        },
+      },
+      ["id"] = 92910,
+      ["name"] = "Harvesting the Harvesters",
+      ["objectivesText"] = {
+        "Bring the Precessive Autocognition Assembly to Ozwin Ironsprocket at Saldean's Farm.",
+      },
+      ["questLevel"] = 15,
+      ["requiredLevel"] = 8,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 54,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 255155,
+      ["startedBy"] = {
+        ["items"] = {
+          255155,
+        },
+      },
+      ["zoneOrSort"] = 40,
+    },
+    [92911] = {
+      ["areaId"] = 40,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          253395,
+        },
+      },
+      ["id"] = 92911,
+      ["name"] = "Harvesting the Harvesters",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            255007,
+          },
+          {
+            4363,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Ozwin Ironsprocket at Saldean's Farm wants you to bring him 8 Golem Isosprings, 4 Copper Modulators, and a Crude Scope.",
+      },
+      ["questLevel"] = 15,
+      ["requiredLevel"] = 8,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 277132,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 277470,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 54,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          253395,
+        },
+      },
+      ["zoneOrSort"] = 40,
     },
     [9292] = {
       ["finishedBy"] = {
@@ -217937,6 +219946,95 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 16593,
     },
+    [93739] = {
+      ["areaId"] = 1637,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          4949,
+        },
+      },
+      ["id"] = 93739,
+      ["name"] = "Exploring the Horde",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            3230,
+          },
+          {
+            10540,
+          },
+          {
+            3057,
+          },
+          {
+            10181,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Nazgrel in Grommash Hold to receive further instructions. Use the instructions received to locate and speak with Vol'jin, Cairne Bloodhoof, and Lady Sylvanas Windrunner.",
+      },
+      ["preQuestGroup"] = {
+        95350,
+      },
+      ["preQuestSingle"] = {
+        95350,
+      },
+      ["questLevel"] = 13,
+      ["requiredLevel"] = 7,
+      ["requiredRaces"] = 8589934592,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 286426,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 68,
+          },
+          {
+            ["amount"] = 100,
+            ["factionId"] = 76,
+          },
+          {
+            ["amount"] = 100,
+            ["factionId"] = 81,
+          },
+          {
+            ["amount"] = 100,
+            ["factionId"] = 530,
+          },
+          {
+            ["amount"] = 100,
+            ["factionId"] = 2787,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          4949,
+        },
+      },
+      ["zoneOrSort"] = 1637,
+    },
     [93740] = {
       ["areaId"] = 16593,
       ["finishedBy"] = {
@@ -218869,6 +220967,99 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 16593,
     },
+    [93963] = {
+      ["areaId"] = 1519,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1748,
+        },
+      },
+      ["id"] = 93963,
+      ["name"] = "Exploring the Alliance",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            275491,
+          },
+          {
+            7937,
+          },
+          {
+            2784,
+          },
+          {
+            7999,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Randal Emerson in Stormwind Keep to receive further instructions. Use the instructions received to locate and speak with King Magni Bronzebeard, High Tinker Mekkatorque, and Tyrande Whisperwind.",
+      },
+      ["preQuestGroup"] = {
+        94947,
+      },
+      ["preQuestSingle"] = {
+        94947,
+      },
+      ["questLevel"] = 13,
+      ["requiredLevel"] = 7,
+      ["requiredRaces"] = 4294967296,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 286427,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 469,
+          },
+          {
+            ["amount"] = 175,
+            ["factionId"] = 54,
+          },
+          {
+            ["amount"] = 175,
+            ["factionId"] = 72,
+          },
+          {
+            ["amount"] = 175,
+            ["factionId"] = 69,
+          },
+          {
+            ["amount"] = 175,
+            ["factionId"] = 47,
+          },
+          {
+            ["amount"] = 100,
+            ["factionId"] = 2740,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          1748,
+        },
+      },
+      ["zoneOrSort"] = 1519,
+    },
     [94] = {
       ["areaId"] = 44,
       ["finishedBy"] = {
@@ -218950,6 +221141,188 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 141,
+    },
+    [94003] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          252377,
+        },
+      },
+      ["id"] = 94003,
+      ["name"] = "The Skybreaker Bulwark",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            263993,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Reclaim the Skybreaker Bulwark from Zaal Stormshield at the Shrine of Akir.",
+      },
+      ["questLevel"] = 10,
+      ["requiredClasses"] = 1,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 12884901888,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 275290,
+          },
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 2778,
+          },
+          {
+            ["amount"] = 50,
+            ["factionId"] = 2779,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -81,
+      ["startedBy"] = {
+        ["npcs"] = {
+          252377,
+        },
+      },
+      ["zoneOrSort"] = -81,
+    },
+    [94006] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          255853,
+        },
+      },
+      ["id"] = 94006,
+      ["name"] = "The Great Ursera Spirit",
+      ["nextQuestInChain"] = 94638,
+      ["objectivesText"] = {
+        "Speak with Urs'endris near the falls northeast of Valanaar.",
+      },
+      ["questLevel"] = 10,
+      ["requiredClasses"] = 1024,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 12884901888,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 609,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -263,
+      ["startedBy"] = {
+        ["npcs"] = {
+          252359,
+        },
+      },
+      ["zoneOrSort"] = -263,
+    },
+    [94013] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          252389,
+        },
+      },
+      ["id"] = 94013,
+      ["name"] = "Taming the Beast",
+      ["nextQuestInChain"] = 94050,
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            250874,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Use the Taming Rod to tame a Vuldren Alpha in the Gustberry Lowlands. Practice your skills, then return the Taming Rod to Quel'ana Quickgale in Valanaar.",
+      },
+      ["preQuestGroup"] = {
+        94979,
+      },
+      ["preQuestSingle"] = {
+        94979,
+      },
+      ["questLevel"] = 10,
+      ["requiredClasses"] = 4,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 12884901888,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -261,
+      ["sourceItemId"] = 264163,
+      ["startedBy"] = {
+        ["npcs"] = {
+          252389,
+        },
+      },
+      ["zoneOrSort"] = -261,
+    },
+    [94050] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          254411,
+        },
+      },
+      ["id"] = 94050,
+      ["name"] = "Training the Beast",
+      ["objectivesText"] = {
+        "Speak to Quel'dora Quickgale in Valanaar.",
+      },
+      ["preQuestGroup"] = {
+        94013,
+      },
+      ["preQuestSingle"] = {
+        94013,
+      },
+      ["questLevel"] = 10,
+      ["requiredClasses"] = 4,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 12884901888,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -261,
+      ["startedBy"] = {
+        ["npcs"] = {
+          252389,
+        },
+      },
+      ["zoneOrSort"] = -261,
     },
     [941] = {
       ["areaId"] = 141,
@@ -219337,6 +221710,136 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 16593,
     },
+    [94373] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          257446,
+        },
+      },
+      ["id"] = 94373,
+      ["name"] = "Call of Earth",
+      ["nextQuestInChain"] = 94374,
+      ["objectives"] = {
+        ["items"] = {
+          {
+            264356,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Bring 2 Frostmane Bear Pendants to Teo Hammerstorm in Anvilmar.",
+      },
+      ["preQuestSingle"] = {
+        98581,
+      },
+      ["questLevel"] = 4,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["startedBy"] = {
+        ["npcs"] = {
+          257446,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
+    [94374] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          5891,
+        },
+      },
+      ["id"] = 94374,
+      ["name"] = "Call of Earth",
+      ["nextQuestInChain"] = 94375,
+      ["objectivesText"] = {
+        "Find the Spirit Stone and drink the Earth Sapta.",
+      },
+      ["preQuestGroup"] = {
+        94373,
+      },
+      ["preQuestSingle"] = {
+        94373,
+      },
+      ["questLevel"] = 4,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["sourceItemId"] = 6635,
+      ["startedBy"] = {
+        ["npcs"] = {
+          257446,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
+    [94375] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          257446,
+        },
+      },
+      ["id"] = 94375,
+      ["name"] = "Call of Earth",
+      ["objectivesText"] = {
+        "Bring the Rough Quartz to Teo Hammerstorm in Anvilmar.",
+      },
+      ["preQuestGroup"] = {
+        94374,
+      },
+      ["preQuestSingle"] = {
+        94374,
+      },
+      ["questLevel"] = 4,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 5175,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["sourceItemId"] = 6656,
+      ["startedBy"] = {
+        ["npcs"] = {
+          5891,
+          257446,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
     [944] = {
       ["areaId"] = 148,
       ["finishedBy"] = {
@@ -219579,6 +222082,563 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 16593,
+    },
+    [94427] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          257648,
+        },
+      },
+      ["id"] = 94427,
+      ["name"] = "A Lesson in Divinity",
+      ["objectivesText"] = {
+        "Speak to Tanis Alderwood in the Undercity.",
+      },
+      ["questLevel"] = 12,
+      ["requiredClasses"] = 2,
+      ["requiredLevel"] = 12,
+      ["requiredRaces"] = 16,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 2,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -141,
+      ["startedBy"] = {
+        ["npcs"] = {
+          246378,
+        },
+      },
+      ["zoneOrSort"] = -141,
+    },
+    [94434] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          257648,
+        },
+      },
+      ["id"] = 94434,
+      ["name"] = "A Lesson in Divinity",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            2589,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Bring 10 Linen Cloth to Tanis Alderwood in the Undercity.",
+      },
+      ["questLevel"] = 12,
+      ["requiredClasses"] = 2,
+      ["requiredLevel"] = 12,
+      ["requiredRaces"] = 16,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -141,
+      ["startedBy"] = {
+        ["npcs"] = {
+          257648,
+        },
+      },
+      ["zoneOrSort"] = -141,
+    },
+    [94435] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          246378,
+        },
+      },
+      ["id"] = 94435,
+      ["name"] = "A Lesson in Divinity",
+      ["objectivesText"] = {
+        "Return to Danitha Morr at Bandarion Keep.",
+      },
+      ["preQuestSingle"] = {
+        94434,
+      },
+      ["questLevel"] = 12,
+      ["requiredClasses"] = 2,
+      ["requiredLevel"] = 12,
+      ["requiredRaces"] = 16,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 6866,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 2,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -141,
+      ["startedBy"] = {
+        ["npcs"] = {
+          257648,
+        },
+      },
+      ["zoneOrSort"] = -141,
+    },
+    [94436] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          257655,
+        },
+      },
+      ["id"] = 94436,
+      ["name"] = "A Lesson in Divinity",
+      ["objectivesText"] = {
+        "Speak with Deathguard Billmuth at Bandarion Keep.",
+        "Should you misplace your Symbol of Life, return to Danitha Morr for a replacement.",
+      },
+      ["preQuestSingle"] = {
+        94435,
+      },
+      ["questLevel"] = 12,
+      ["requiredClasses"] = 2,
+      ["requiredLevel"] = 12,
+      ["requiredRaces"] = 16,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 1,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -141,
+      ["startedBy"] = {
+        ["npcs"] = {
+          246378,
+        },
+      },
+      ["zoneOrSort"] = -141,
+    },
+    [94438] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          257663,
+        },
+      },
+      ["id"] = 94438,
+      ["name"] = "A Lesson in Divinity",
+      ["objectivesText"] = {
+        "Take the Symbol of Life and use it to resurrect Deathguard Falgan at Venomweb Vale.",
+        "Should you misplace your Symbol of Life, return to Danitha Morr for a replacement.",
+      },
+      ["preQuestSingle"] = {
+        94436,
+      },
+      ["questLevel"] = 12,
+      ["requiredClasses"] = 2,
+      ["requiredLevel"] = 12,
+      ["requiredRaces"] = 16,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 75,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -141,
+      ["startedBy"] = {
+        ["npcs"] = {
+          257655,
+        },
+      },
+      ["zoneOrSort"] = -141,
+    },
+    [94440] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          257655,
+        },
+      },
+      ["id"] = 94440,
+      ["name"] = "A Lesson in Divinity",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            264693,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Retrieve the Scarlet Crusade Attack Plans from the Scarlet Crusaders at Venomweb Vale, and return to Deathguard Billmuth at Tyr's Watch.",
+      },
+      ["preQuestSingle"] = {
+        94438,
+      },
+      ["questLevel"] = 12,
+      ["requiredClasses"] = 2,
+      ["requiredLevel"] = 12,
+      ["requiredRaces"] = 16,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -141,
+      ["startedBy"] = {
+        ["npcs"] = {
+          257663,
+        },
+      },
+      ["zoneOrSort"] = -141,
+    },
+    [94441] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          246378,
+        },
+      },
+      ["id"] = 94441,
+      ["name"] = "A Lesson in Divinity",
+      ["objectivesText"] = {
+        "Speak with Danitha Morr in the keep at Bandarion Keep.",
+      },
+      ["preQuestSingle"] = {
+        94440,
+      },
+      ["questLevel"] = 12,
+      ["requiredClasses"] = 2,
+      ["requiredLevel"] = 12,
+      ["requiredRaces"] = 16,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 2,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -141,
+      ["startedBy"] = {
+        ["npcs"] = {
+          257655,
+        },
+      },
+      ["zoneOrSort"] = -141,
+    },
+    [94449] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          257597,
+        },
+      },
+      ["id"] = 94449,
+      ["name"] = "Call of Fire",
+      ["objectivesText"] = {
+        "Find Bruegs Kindleborn in Dun Morogh.",
+      },
+      ["questLevel"] = 10,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["startedBy"] = {
+        ["npcs"] = {
+          258098,
+          258113,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
+    [94465] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          257808,
+        },
+      },
+      ["id"] = 94465,
+      ["name"] = "Call of Fire",
+      ["nextQuestInChain"] = 94466,
+      ["objectivesText"] = {
+        "Bring the Torch of the Dormant Flame to Braldir Ashmantle in Loch Modan.",
+      },
+      ["preQuestSingle"] = {
+        94449,
+      },
+      ["questLevel"] = 11,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["sourceItemId"] = 6653,
+      ["startedBy"] = {
+        ["npcs"] = {
+          257597,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
+    [94466] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          257808,
+        },
+      },
+      ["id"] = 94466,
+      ["name"] = "Call of Fire",
+      ["nextQuestInChain"] = 94467,
+      ["objectives"] = {
+        ["items"] = {
+          {
+            6652,
+          },
+          {
+            5026,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Bring 1 Fire Tar and 1 Reagent Pouch to Braldir Ashmantle in Loch Modan.",
+      },
+      ["preQuestGroup"] = {
+        94465,
+      },
+      ["preQuestSingle"] = {
+        94465,
+      },
+      ["questLevel"] = 14,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 6636,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["startedBy"] = {
+        ["npcs"] = {
+          257808,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
+    [94467] = {
+      ["finishedBy"] = {
+        ["objects"] = {
+          61934,
+        },
+      },
+      ["id"] = 94467,
+      ["name"] = "Call of Fire",
+      ["nextQuestInChain"] = 94468,
+      ["objectives"] = {
+        ["items"] = {
+          {
+            6655,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Defeat the Minor Manifestation of Fire, and place the Glowing Ember in the brazier atop the Shrine of Eternal Flame.",
+      },
+      ["preQuestGroup"] = {
+        94466,
+      },
+      ["preQuestSingle"] = {
+        94466,
+      },
+      ["questLevel"] = 14,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 6654,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["sourceItemId"] = 6653,
+      ["startedBy"] = {
+        ["npcs"] = {
+          257808,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
+    [94468] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          257597,
+        },
+      },
+      ["id"] = 94468,
+      ["name"] = "Call of Fire",
+      ["objectivesText"] = {
+        "Bring the Torch of Eternal Flame to Bruegs Kindleborn in Dun Morogh.",
+      },
+      ["preQuestGroup"] = {
+        94467,
+      },
+      ["preQuestSingle"] = {
+        94467,
+      },
+      ["questLevel"] = 14,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 5176,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 263412,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["sourceItemId"] = 6654,
+      ["startedBy"] = {
+        ["objects"] = {
+          61934,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
+    [94472] = {
+      ["availableUntilCompleted"] = 94374,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          257446,
+        },
+      },
+      ["id"] = 94472,
+      ["name"] = "Earth Sapta",
+      ["objectivesText"] = {
+        "Speak to Teo Hammerstorm for another Earth Sapta.",
+      },
+      ["preQuestGroup"] = {
+        94373,
+      },
+      ["questLevel"] = 4,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 6635,
+          },
+        },
+      },
+      ["sortId"] = -82,
+      ["startedBy"] = {
+        ["npcs"] = {
+          257446,
+        },
+      },
+      ["zoneOrSort"] = -82,
     },
     [94484] = {
       ["areaId"] = 16593,
@@ -219994,6 +223054,156 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 16593,
     },
+    [94494] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          258043,
+        },
+      },
+      ["id"] = 94494,
+      ["name"] = "Call of Water",
+      ["objectivesText"] = {
+        "Find Norric Lochthane in Loch Modan.",
+      },
+      ["questLevel"] = 20,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 20,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["startedBy"] = {
+        ["npcs"] = {
+          258098,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
+    [94495] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          258203,
+        },
+      },
+      ["id"] = 94495,
+      ["name"] = "Call of Water",
+      ["objectivesText"] = {
+        "Find Hervdana Saegrund in the Wetlands.",
+      },
+      ["questLevel"] = 22,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 20,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 2,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["startedBy"] = {
+        ["npcs"] = {
+          258043,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
+    [94497] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          258203,
+        },
+      },
+      ["id"] = 94497,
+      ["name"] = "Call of Water",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            265734,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Fill the Empty Brown Waterskin at the bottom of the waterfalls below Hervdana's cave and return it to her in the Wetlands.",
+      },
+      ["preQuestSingle"] = {
+        94495,
+      },
+      ["questLevel"] = 22,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 20,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["sourceItemId"] = 265732,
+      ["startedBy"] = {
+        ["npcs"] = {
+          258203,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
+    [94499] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          258203,
+        },
+      },
+      ["id"] = 94499,
+      ["name"] = "Call of Water",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            265748,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Fill the Empty Red Waterskin at Stonewatch Falls near the Nightcrawler Murlocs and return to Hervdana Saegrund in the Wetlands.",
+      },
+      ["preQuestSingle"] = {
+        94497,
+      },
+      ["questLevel"] = 22,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 20,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["sourceItemId"] = 265747,
+      ["startedBy"] = {
+        ["npcs"] = {
+          258203,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
     [945] = {
       ["areaId"] = 148,
       ["finishedBy"] = {
@@ -220039,6 +223249,214 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 148,
+    },
+    [94500] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          258203,
+        },
+      },
+      ["id"] = 94500,
+      ["name"] = "Call of Water",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            265773,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Fill the Unfilled Blue Waterskin at the waters of Astranaar in Ashenvale and return to Hervdana Saegrund in the Wetlands.",
+      },
+      ["preQuestSingle"] = {
+        94499,
+      },
+      ["questLevel"] = 23,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 20,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["sourceItemId"] = 265772,
+      ["startedBy"] = {
+        ["npcs"] = {
+          258203,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
+    [94501] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          258043,
+        },
+      },
+      ["id"] = 94501,
+      ["name"] = "Call of Water",
+      ["objectivesText"] = {
+        "Bring the Vial of Purest Water to Norric Lochthane in Loch Modan.",
+      },
+      ["preQuestSingle"] = {
+        94500,
+      },
+      ["questLevel"] = 23,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 20,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 6637,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 2,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["sourceItemId"] = 7810,
+      ["startedBy"] = {
+        ["npcs"] = {
+          258203,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
+    [94502] = {
+      ["finishedBy"] = {
+        ["objects"] = {
+          619896,
+        },
+      },
+      ["id"] = 94502,
+      ["name"] = "Call of Water",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            7812,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Cleanse the corruption at Stendel's Pond in Westfall.",
+        "Return to Norric in Loch Modan when finished.",
+      },
+      ["preQuestSingle"] = {
+        94501,
+      },
+      ["questLevel"] = 23,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 20,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["sourceItemId"] = 7811,
+      ["startedBy"] = {
+        ["npcs"] = {
+          258043,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
+    [94503] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          5895,
+        },
+      },
+      ["id"] = 94503,
+      ["name"] = "Call of Water",
+      ["objectivesText"] = {
+        "Speak to the Minor Manifestation of Water in Westfall.",
+      },
+      ["preQuestSingle"] = {
+        94502,
+      },
+      ["questLevel"] = 23,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 20,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 1,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["startedBy"] = {
+        ["objects"] = {
+          619896,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
+    [94505] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          258043,
+        },
+      },
+      ["id"] = 94505,
+      ["name"] = "Call of Water",
+      ["objectivesText"] = {
+        "Bring the Shard of Water to Norric Lochthane in Loch Modan.",
+      },
+      ["preQuestSingle"] = {
+        94503,
+      },
+      ["questLevel"] = 23,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 20,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 5177,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 7,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["sourceItemId"] = 7813,
+      ["startedBy"] = {
+        ["npcs"] = {
+          5895,
+        },
+      },
+      ["zoneOrSort"] = -82,
     },
     [94568] = {
       ["areaId"] = 16593,
@@ -220100,6 +223518,58 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 16593,
+    },
+    [94638] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          255853,
+        },
+      },
+      ["id"] = 94638,
+      ["name"] = "Strength and Mercy",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            258443,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Find and kill Ur'endra in the Shen'dar Highlands.",
+      },
+      ["preQuestGroup"] = {
+        94006,
+      },
+      ["preQuestSingle"] = {
+        94006,
+      },
+      ["questLevel"] = 10,
+      ["requiredClasses"] = 1024,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 12884901888,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 2758,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -263,
+      ["startedBy"] = {
+        ["npcs"] = {
+          255853,
+        },
+      },
+      ["zoneOrSort"] = -263,
     },
     [947] = {
       ["areaId"] = 148,
@@ -220167,6 +223637,117 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 148,
     },
+    [94774] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          376,
+        },
+      },
+      ["id"] = 94774,
+      ["name"] = "Divine Grace",
+      ["objectivesText"] = {
+        "Speak to High Priestess Laurena in Stormwind.",
+      },
+      ["questLevel"] = 10,
+      ["requiredClasses"] = 16,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 1,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 2,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -262,
+      ["startedBy"] = {
+        ["npcs"] = {
+          377,
+        },
+      },
+      ["zoneOrSort"] = -262,
+    },
+    [94792] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          251507,
+        },
+      },
+      ["id"] = 94792,
+      ["name"] = "Taming the Beast",
+      ["nextQuestInChain"] = 94863,
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            524,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Use the Taming Rod to tame a Rockhide Boar. Practice your skills, then return the Taming Rod to Josephine Carson.",
+      },
+      ["questLevel"] = 10,
+      ["requiredClasses"] = 4,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -261,
+      ["sourceItemId"] = 266158,
+      ["startedBy"] = {
+        ["npcs"] = {
+          251507,
+        },
+      },
+      ["zoneOrSort"] = -261,
+    },
+    [94793] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          258930,
+        },
+      },
+      ["id"] = 94793,
+      ["name"] = "Training the Beast",
+      ["objectivesText"] = {
+        "Speak to Isaac Chan in Goldshire.",
+      },
+      ["preQuestGroup"] = {
+        94864,
+      },
+      ["preQuestSingle"] = {
+        94864,
+      },
+      ["questLevel"] = 10,
+      ["requiredClasses"] = 4,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -261,
+      ["startedBy"] = {
+        ["npcs"] = {
+          251507,
+        },
+      },
+      ["zoneOrSort"] = -261,
+    },
     [948] = {
       ["areaId"] = 148,
       ["finishedBy"] = {
@@ -220215,6 +223796,130 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 148,
+    },
+    [94817] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          258785,
+        },
+      },
+      ["id"] = 94817,
+      ["name"] = "Confounding Flash",
+      ["questLevel"] = 10,
+      ["requiredClasses"] = 16,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 64,
+      ["sortId"] = -262,
+      ["startedBy"] = {
+        ["npcs"] = {
+          258785,
+        },
+      },
+      ["zoneOrSort"] = -262,
+    },
+    [94818] = {
+      ["id"] = 94818,
+      ["name"] = "Contingency Plan",
+      ["questLevel"] = 20,
+      ["requiredClasses"] = 16,
+      ["requiredLevel"] = 20,
+      ["requiredRaces"] = 64,
+      ["sortId"] = -262,
+      ["zoneOrSort"] = -262,
+    },
+    [94863] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          251507,
+        },
+      },
+      ["id"] = 94863,
+      ["name"] = "Taming the Beast",
+      ["nextQuestInChain"] = 94864,
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            1922,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Use the Taming Rod to tame a Gray Forest Wolf. Practice your skills, then return the Taming Rod to Josephine Carson.",
+      },
+      ["preQuestGroup"] = {
+        94792,
+      },
+      ["preQuestSingle"] = {
+        94792,
+      },
+      ["questLevel"] = 10,
+      ["requiredClasses"] = 4,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -261,
+      ["sourceItemId"] = 266253,
+      ["startedBy"] = {
+        ["npcs"] = {
+          251507,
+        },
+      },
+      ["zoneOrSort"] = -261,
+    },
+    [94864] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          251507,
+        },
+      },
+      ["id"] = 94864,
+      ["name"] = "Taming the Beast",
+      ["nextQuestInChain"] = 94793,
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            822,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Use the Taming Rod to tame a Young Forest Bear. Practice your skills, then return the Taming Rod to Josephine Carson.",
+      },
+      ["preQuestGroup"] = {
+        94863,
+      },
+      ["preQuestSingle"] = {
+        94863,
+      },
+      ["questLevel"] = 10,
+      ["requiredClasses"] = 4,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -261,
+      ["sourceItemId"] = 266254,
+      ["startedBy"] = {
+        ["npcs"] = {
+          251507,
+        },
+      },
+      ["zoneOrSort"] = -261,
     },
     [94896] = {
       ["areaId"] = 16593,
@@ -220339,6 +224044,87 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 148,
     },
+    [94911] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3033,
+        },
+      },
+      ["id"] = 94911,
+      ["name"] = "Child of Nature",
+      ["objectivesText"] = {
+        "Speak with Turak Runetotem in Thunder Bluff.",
+      },
+      ["questLevel"] = 10,
+      ["requiredClasses"] = 1024,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 8589934592,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 2758,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -263,
+      ["startedBy"] = {
+        ["npcs"] = {
+          259118,
+        },
+      },
+      ["zoneOrSort"] = -263,
+    },
+    [94913] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          11802,
+        },
+      },
+      ["id"] = 94913,
+      ["name"] = "Moonglade",
+      ["objectivesText"] = {
+        "Use the spell \"Teleport: Moonglade\" to travel to Moonglade.  When you arrive, speak with Dendrite Starblaze in the village of Nighthaven.",
+      },
+      ["preQuestSingle"] = {
+        94911,
+      },
+      ["questLevel"] = 10,
+      ["requiredClasses"] = 1024,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 8589934592,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 25,
+            ["factionId"] = 609,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 2,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -263,
+      ["startedBy"] = {
+        ["npcs"] = {
+          3033,
+        },
+      },
+      ["zoneOrSort"] = -263,
+    },
     [94946] = {
       ["areaId"] = 16593,
       ["finishedBy"] = {
@@ -220382,6 +224168,145 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 16593,
+    },
+    [94947] = {
+      ["areaId"] = 1519,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1748,
+        },
+      },
+      ["id"] = 94947,
+      ["name"] = "Welcome to Azeroth",
+      ["nextQuestInChain"] = 93963,
+      ["objectives"] = {
+        ["objects"] = {
+          {
+            631299,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Take the Skyborne Portal to Stormwind and report to Bolvar Fordragon in Stormwind Keep.",
+      },
+      ["preQuestSingle"] = {
+        94946,
+      },
+      ["questLevel"] = 13,
+      ["requiredLevel"] = 7,
+      ["requiredRaces"] = 4294967296,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 25,
+            ["factionId"] = 2779,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          259084,
+        },
+      },
+      ["zoneOrSort"] = 1519,
+    },
+    [94978] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          252389,
+        },
+      },
+      ["id"] = 94978,
+      ["name"] = "Taming the Beast",
+      ["nextQuestInChain"] = 94979,
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            254588,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Use the Taming Rod to tame a Windsong Crawler found near bodies of water.",
+        "Practice your skills, then return the Taming Rod to Quel'ana Quickgale in Valanaar.",
+      },
+      ["questLevel"] = 10,
+      ["requiredClasses"] = 4,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 12884901888,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -261,
+      ["sourceItemId"] = 267272,
+      ["startedBy"] = {
+        ["npcs"] = {
+          252389,
+        },
+      },
+      ["zoneOrSort"] = -261,
+    },
+    [94979] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          252389,
+        },
+      },
+      ["id"] = 94979,
+      ["name"] = "Taming the Beast",
+      ["nextQuestInChain"] = 94013,
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            251707,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Use the Taming Rod to tame an Ornery Galestrider in the Gustberry Lowlands.",
+        "Practice your skills, then return the Taming Rod to Quel'ana Quickgale in Valanaar.",
+      },
+      ["preQuestGroup"] = {
+        94978,
+      },
+      ["preQuestSingle"] = {
+        94978,
+      },
+      ["questLevel"] = 10,
+      ["requiredClasses"] = 4,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 12884901888,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -261,
+      ["sourceItemId"] = 267298,
+      ["startedBy"] = {
+        ["npcs"] = {
+          252389,
+        },
+      },
+      ["zoneOrSort"] = -261,
     },
     [95] = {
       ["areaId"] = 10,
@@ -220579,6 +224504,226 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 1657,
     },
+    [95204] = {
+      ["areaId"] = 16611,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          7825,
+        },
+      },
+      ["id"] = 95204,
+      ["name"] = "Crest of Lordaeron",
+      ["objectivesText"] = {
+        "Bring the Crest of Lordaeron to Oran Snakewrithe in Undercity.",
+      },
+      ["questLevel"] = 22,
+      ["requiredLevel"] = 16,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 280567,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 7,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 275521,
+      ["startedBy"] = {
+        ["items"] = {
+          275521,
+        },
+      },
+      ["zoneOrSort"] = 16611,
+    },
+    [95212] = {
+      ["areaId"] = 1,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1265,
+        },
+      },
+      ["id"] = 95212,
+      ["name"] = "Never Saddle on Quality",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            267414,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Collect 6 Pristine Leopard Pelts and deliver them to Amberstill Ranch.",
+      },
+      ["questLevel"] = 10,
+      ["requiredLevel"] = 7,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 75,
+            ["factionId"] = 47,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          1265,
+        },
+      },
+      ["zoneOrSort"] = 1,
+    },
+    [95213] = {
+      ["areaId"] = 1,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1256,
+        },
+      },
+      ["id"] = 95213,
+      ["name"] = "Stolen Blasting Powder",
+      ["nextQuestInChain"] = 95214,
+      ["objectives"] = {
+        ["items"] = {
+          {
+            268548,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Bring the Empty Powder Keg to Quarrymaster Thesten at Gol'Bolar Quarry.",
+      },
+      ["questLevel"] = 10,
+      ["requiredLevel"] = 7,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 1,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["items"] = {
+          268548,
+        },
+      },
+      ["zoneOrSort"] = 1,
+    },
+    [95214] = {
+      ["areaId"] = 1,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1256,
+        },
+      },
+      ["id"] = 95214,
+      ["name"] = "Stolen Blasting Powder",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            267415,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Recover 16 Stolen Blasting Powder from the troggs east of Gol'Bolar Quarry, then return to Quarrymaster Thesten.",
+      },
+      ["preQuestGroup"] = {
+        95213,
+      },
+      ["questLevel"] = 10,
+      ["requiredLevel"] = 7,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 75,
+            ["factionId"] = 47,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          1256,
+        },
+      },
+      ["zoneOrSort"] = 1,
+    },
+    [95216] = {
+      ["areaId"] = 16611,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          11835,
+        },
+      },
+      ["id"] = 95216,
+      ["name"] = "The New Plague",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            275443,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Collect the Highly Toxic Strain from Witherfang in Ruins of Lordaeron for Theodore Griffs in Undercity.",
+      },
+      ["questLevel"] = 22,
+      ["requiredLevel"] = 16,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 279876,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 279877,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 7,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          11835,
+        },
+      },
+      ["zoneOrSort"] = 16611,
+    },
     [953] = {
       ["areaId"] = 148,
       ["finishedBy"] = {
@@ -220636,6 +224781,57 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 148,
     },
+    [95314] = {
+      ["areaId"] = 85,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          2132,
+        },
+      },
+      ["id"] = 95314,
+      ["name"] = "That Shadowvale Green Elixir",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            268801,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Collect 8 Bottles of Whispering Elixir from Shadowvale, then return to Carolai Anise in Brill.",
+      },
+      ["questLevel"] = 10,
+      ["requiredLevel"] = 7,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          2132,
+        },
+      },
+      ["zoneOrSort"] = 85,
+    },
     [95349] = {
       ["areaId"] = 16593,
       ["finishedBy"] = {
@@ -220679,6 +224875,48 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 16593,
+    },
+    [95350] = {
+      ["areaId"] = 1637,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          4949,
+        },
+      },
+      ["id"] = 95350,
+      ["name"] = "Welcome to Azeroth",
+      ["nextQuestInChain"] = 93739,
+      ["objectivesText"] = {
+        "Travel to Orgrimmar and speak with Thrall in the Valley of Wisdom.",
+      },
+      ["preQuestSingle"] = {
+        95349,
+      },
+      ["questLevel"] = 13,
+      ["requiredLevel"] = 7,
+      ["requiredRaces"] = 8589934592,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 25,
+            ["factionId"] = 2778,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          259119,
+        },
+      },
+      ["zoneOrSort"] = 1637,
     },
     [954] = {
       ["areaId"] = 148,
@@ -220741,6 +224979,99 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 148,
     },
+    [95494] = {
+      ["areaId"] = 17,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3682,
+        },
+      },
+      ["id"] = 95494,
+      ["name"] = "Bruised Pride and Lion Hides",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            269715,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Collect 6 Savannah Lion Hides from the Savannah Matriarchs and Savannah Patriarchs in the Barrens.",
+      },
+      ["questLevel"] = 18,
+      ["requiredLevel"] = 14,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 76,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          3682,
+        },
+      },
+      ["zoneOrSort"] = 17,
+    },
+    [95495] = {
+      ["areaId"] = 17,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          261366,
+        },
+      },
+      ["id"] = 95495,
+      ["name"] = "The Hermit Tanner",
+      ["objectivesText"] = {
+        "Bring the Bundle of Hides to the hermit on the ridge overlooking the Dry Hills in the Barrens.",
+      },
+      ["preQuestSingle"] = {
+        95507,
+      },
+      ["questLevel"] = 18,
+      ["requiredLevel"] = 14,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 76,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 2,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 269718,
+      ["startedBy"] = {
+        ["npcs"] = {
+          3682,
+        },
+      },
+      ["zoneOrSort"] = 17,
+    },
     [955] = {
       ["areaId"] = 148,
       ["finishedBy"] = {
@@ -220797,6 +225128,57 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 148,
     },
+    [95507] = {
+      ["areaId"] = 17,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3682,
+        },
+      },
+      ["id"] = 95507,
+      ["name"] = "Vrang's Game",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            269719,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Collect 8 Trapped Game from traps found in Sprung Traps in the Barrens.",
+      },
+      ["questLevel"] = 18,
+      ["requiredLevel"] = 14,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 76,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          3682,
+        },
+      },
+      ["zoneOrSort"] = 17,
+    },
     [956] = {
       ["areaId"] = 148,
       ["finishedBy"] = {
@@ -220852,6 +225234,44 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 148,
+    },
+    [95664] = {
+      ["areaId"] = 16732,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          9087,
+        },
+      },
+      ["id"] = 95664,
+      ["name"] = "Elder Knowledge",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            270866,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Take the Titan Relic to the Elder Rise in Thunder Bluff and look for someone who can tell you more about it.",
+      },
+      ["questLevel"] = 31,
+      ["requiredLevel"] = 24,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 2,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["items"] = {
+          270866,
+        },
+      },
+      ["zoneOrSort"] = 16732,
     },
     [957] = {
       ["areaId"] = 148,
@@ -220923,6 +225343,50 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 148,
+    },
+    [95774] = {
+      ["areaId"] = 17,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3432,
+        },
+      },
+      ["id"] = 95774,
+      ["name"] = "Her Name Is Olgra",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            277277,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Slay quilboars and collect 4 of Olgra's Adornments for Mankrik's memorial.",
+      },
+      ["questLevel"] = 20,
+      ["requiredLevel"] = 14,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          3432,
+        },
+      },
+      ["zoneOrSort"] = 17,
     },
     [958] = {
       ["areaId"] = 148,
@@ -221035,6 +225499,117 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 718,
     },
+    [95981] = {
+      ["areaId"] = 130,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          2121,
+        },
+      },
+      ["id"] = 95981,
+      ["name"] = "Watching the Roads",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            1888,
+          },
+          {
+            1889,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Slay 8 Dalaran Wizards and 8 Dalaran Watchers for Shadow Priest Allister in the Sepulcher.",
+      },
+      ["questLevel"] = 20,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 281265,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          2121,
+        },
+      },
+      ["zoneOrSort"] = 130,
+    },
+    [95998] = {
+      ["exclusiveTo"] = {
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          263399,
+        },
+      },
+      ["id"] = 95998,
+      ["name"] = "The Great Outdoors",
+      ["objectives"] = {
+        ["objects"] = {
+          {
+            460003,
+          },
+          {
+            460003,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Sit near Sam's Basic Campfire by typing /sit in the chat window and wait until you receive the Boosted Rest buff.",
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          253,
+          263399,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
     [96] = {
       ["exclusiveTo"] = {
         972,
@@ -221087,6 +225662,477 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = -82,
     },
+    [96031] = {
+      ["exclusiveTo"] = {
+        97906,
+        97922,
+        97934,
+        97946,
+        97958,
+        97969,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1466,
+        },
+      },
+      ["id"] = 96031,
+      ["name"] = "Camping 101: Leatherworking",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            1466,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Gretta Finespindle in Ironforge to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265813,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96044] = {
+      ["exclusiveTo"] = {
+        97900,
+        97916,
+        97928,
+        97939,
+        97952,
+        97964,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1241,
+        },
+      },
+      ["id"] = 96044,
+      ["name"] = "Camping 101: Blacksmithing",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            1241,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Tognus Flintfire in Kharanos to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265813,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96045] = {
+      ["exclusiveTo"] = {
+        97899,
+        97915,
+        97927,
+        97938,
+        97951,
+        97963,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1246,
+        },
+      },
+      ["id"] = 96045,
+      ["name"] = "Camping 101: Alchemy",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            1246,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Vosur Brakthel in Ironforge to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          1246,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96046] = {
+      ["exclusiveTo"] = {
+        97907,
+        97923,
+        97935,
+        97948,
+        97959,
+        97970,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          5392,
+        },
+      },
+      ["id"] = 96046,
+      ["name"] = "Camping 101: Mining",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            5392,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Yarr Hammerstone in Kharanos to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265813,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96047] = {
+      ["exclusiveTo"] = {
+        97903,
+        97919,
+        97931,
+        97942,
+        97955,
+        97965,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          2326,
+        },
+      },
+      ["id"] = 96047,
+      ["name"] = "Camping 101: First Aid",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            2326,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Thamner Pol in Kharanos to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265813,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96050] = {
+      ["exclusiveTo"] = {
+        97904,
+        97920,
+        97932,
+        97943,
+        97956,
+        97967,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1700,
+        },
+      },
+      ["id"] = 96050,
+      ["name"] = "Camping 101: Fishing",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            1700,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Paxton Ganter near Iceflow Lake in Dun Morogh to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265813,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96055] = {
+      ["exclusiveTo"] = {
+        97905,
+        97921,
+        97933,
+        97944,
+        97957,
+        97968,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          5137,
+        },
+      },
+      ["id"] = 96055,
+      ["name"] = "Camping 101: Herbalism",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            5137,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Reyna Stonebranch in Ironforge to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265813,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96056] = {
+      ["exclusiveTo"] = {
+        97908,
+        97924,
+        97936,
+        97949,
+        97960,
+        97971,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          6291,
+        },
+      },
+      ["id"] = 96056,
+      ["name"] = "Camping 101: Skinning",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            6291,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Balthus Stoneflayer in Ironforge to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265813,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96057] = {
+      ["exclusiveTo"] = {
+        96102,
+        97925,
+        97937,
+        97950,
+        97961,
+        97972,
+        97973,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1703,
+        },
+      },
+      ["id"] = 96057,
+      ["name"] = "Camping 101: Tailoring",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            1703,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Uthrar Threx in Ironforge to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265813,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96059] = {
+      ["exclusiveTo"] = {
+        97901,
+        97917,
+        97929,
+        97940,
+        97953,
+        98284,
+        98286,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          11065,
+        },
+      },
+      ["id"] = 96059,
+      ["name"] = "Camping 101: Enchanting",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            11065,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Thonys Pillarstone in Ironforge to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          11065,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
     [961] = {
       ["areaId"] = 148,
       ["id"] = 961,
@@ -221112,6 +226158,113 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 148,
+    },
+    [96101] = {
+      ["exclusiveTo"] = {
+        95998,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          263664,
+        },
+      },
+      ["id"] = 96101,
+      ["name"] = "The Great Outdoors",
+      ["objectives"] = {
+        ["objects"] = {
+          {
+            460003,
+          },
+          {
+            460003,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Sit near Raan's Basic Campfire by typing /sit in the chat window and wait until you receive the Boosted Rest buff.",
+      },
+      ["preQuestSingle"] = {
+        96638,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263664,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96102] = {
+      ["exclusiveTo"] = {
+        96057,
+        97925,
+        97937,
+        97950,
+        97961,
+        97972,
+        97973,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          2855,
+        },
+      },
+      ["id"] = 96102,
+      ["name"] = "Camping 101: Tailoring",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            2855,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Snang in Orgrimmar to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265809,
+        },
+      },
+      ["zoneOrSort"] = -666,
     },
     [962] = {
       ["areaId"] = 718,
@@ -221172,6 +226325,186 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 718,
     },
+    [96241] = {
+      ["areaId"] = 215,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          264074,
+        },
+      },
+      ["id"] = 96241,
+      ["name"] = "Talkin' bout Toxins, Mon",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            273001,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Use the Toxin Extractor to gather 5 Gloomrise Toxin Samples from the Gnawed Corpses at Gloomrise.",
+      },
+      ["questLevel"] = 30,
+      ["requiredLevel"] = 23,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 530,
+          },
+          {
+            ["amount"] = 100,
+            ["factionId"] = 2787,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 273015,
+      ["startedBy"] = {
+        ["npcs"] = {
+          264074,
+        },
+      },
+      ["zoneOrSort"] = 215,
+    },
+    [96260] = {
+      ["areaId"] = 215,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          264072,
+        },
+      },
+      ["id"] = 96260,
+      ["name"] = "Stronger than Steel",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            273181,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Gather 3 strands of Crystalline Silk from Gloomrise Spinners.",
+      },
+      ["questLevel"] = 30,
+      ["requiredLevel"] = 23,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["items"] = "tdb",
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 276892,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 276891,
+          },
+        },
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 273654,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 81,
+          },
+          {
+            ["amount"] = 100,
+            ["factionId"] = 2787,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          264072,
+        },
+      },
+      ["zoneOrSort"] = 215,
+    },
+    [96261] = {
+      ["areaId"] = 215,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          259118,
+        },
+      },
+      ["id"] = 96261,
+      ["name"] = "The Broodmother",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            264082,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Kill Broodmother Valraxx at Gloomrise.",
+      },
+      ["questLevel"] = 31,
+      ["requiredLevel"] = 23,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["money"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 276895,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          259118,
+        },
+      },
+      ["zoneOrSort"] = 215,
+    },
     [963] = {
       ["areaId"] = 148,
       ["finishedBy"] = {
@@ -221225,6 +226558,363 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 148,
     },
+    [96339] = {
+      ["areaId"] = 17,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          6791,
+        },
+      },
+      ["id"] = 96339,
+      ["name"] = "Legacy Reward: Replica Ironforge Air Rifle",
+      ["questLevel"] = 60,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 276236,
+          },
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          6791,
+        },
+      },
+      ["zoneOrSort"] = 17,
+    },
+    [96390] = {
+      ["areaId"] = 1,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          264936,
+        },
+      },
+      ["id"] = 96390,
+      ["name"] = "Nip 'Em in the Bud",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            6123,
+          },
+          {
+            1117,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Slay 10 Dark Iron Spies in Dun Morogh.",
+      },
+      ["preQuestGroup"] = {
+        96392,
+      },
+      ["preQuestSingle"] = {
+        96392,
+      },
+      ["questLevel"] = 13,
+      ["requiredLevel"] = 9,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 47,
+          },
+          {
+            ["amount"] = 100,
+            ["factionId"] = 54,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          264936,
+        },
+      },
+      ["zoneOrSort"] = 1,
+    },
+    [96391] = {
+      ["areaId"] = 1,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          264936,
+        },
+      },
+      ["id"] = 96391,
+      ["name"] = "Underground Map",
+      ["objectivesText"] = {
+        "Deliver the Dark Iron Map to Earthseer Farsen in Dun Morogh.",
+      },
+      ["questLevel"] = 15,
+      ["requiredLevel"] = 9,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 47,
+          },
+          {
+            ["amount"] = 100,
+            ["factionId"] = 54,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 274268,
+      ["startedBy"] = {
+        ["items"] = {
+          274268,
+        },
+      },
+      ["zoneOrSort"] = 1,
+    },
+    [96392] = {
+      ["areaId"] = 1,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          264936,
+        },
+      },
+      ["id"] = 96392,
+      ["name"] = "Farsen's Watch",
+      ["nextQuestInChain"] = 96390,
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            264936,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Earthseer Farsen's and ask him to lend you his farsight to observe the Dark Iron threat.",
+      },
+      ["preQuestSingle"] = {
+        96408,
+      },
+      ["questLevel"] = 13,
+      ["requiredLevel"] = 9,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 75,
+            ["factionId"] = 47,
+          },
+          {
+            ["amount"] = 75,
+            ["factionId"] = 54,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          264936,
+        },
+      },
+      ["zoneOrSort"] = 1,
+    },
+    [96393] = {
+      ["areaId"] = 16919,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          2784,
+        },
+      },
+      ["id"] = 96393,
+      ["name"] = "Old Ironforge Incursion",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            274286,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Enter the Hall of Thanes beneath Old Ironforge and claim the Head of Durgen Dirgehammer.",
+      },
+      ["preQuestGroup"] = {
+        96391,
+      },
+      ["questLevel"] = 16,
+      ["requiredLevel"] = 9,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 279894,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 279895,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 279896,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 47,
+          },
+          {
+            ["amount"] = 100,
+            ["factionId"] = 54,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          264936,
+        },
+      },
+      ["zoneOrSort"] = 16919,
+    },
+    [96394] = {
+      ["areaId"] = 16919,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          264943,
+        },
+      },
+      ["id"] = 96394,
+      ["name"] = "The Restless Dead",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            263389,
+          },
+          {
+            263390,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Kill 15 Enraged Apparitions, 10 Tormented Souls and put the spirit of Anvilmar to rest.",
+      },
+      ["questLevel"] = 15,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 279897,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 280095,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 47,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          264943,
+        },
+      },
+      ["zoneOrSort"] = 16919,
+    },
+    [96395] = {
+      ["areaId"] = 16919,
+      ["id"] = 96395,
+      ["name"] = "An Ancient Grudge",
+      ["objectivesText"] = {
+        "Put the spirit of Faldrim Anvilmar to rest and then return to the Ghostly Attendant in the Hall of Thanes.",
+      },
+      ["questLevel"] = 15,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 279899,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 279900,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["zoneOrSort"] = 16919,
+    },
     [964] = {
       ["areaId"] = 28,
       ["finishedBy"] = {
@@ -221273,6 +226963,111 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 28,
+    },
+    [96403] = {
+      ["areaId"] = 16919,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          265003,
+        },
+      },
+      ["id"] = 96403,
+      ["name"] = "Important Heirlooms",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            274289,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Collect 8 Dwarven Heirlooms from the Hall of Thanes.",
+      },
+      ["questLevel"] = 15,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 279898,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 280096,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 369,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          265003,
+        },
+      },
+      ["zoneOrSort"] = 16919,
+    },
+    [96408] = {
+      ["areaId"] = 1,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          264936,
+        },
+      },
+      ["id"] = 96408,
+      ["name"] = "A Visitor to Dun Morogh",
+      ["nextQuestInChain"] = 96392,
+      ["objectivesText"] = {
+        "Investigate the campsite overlooking the Gol'Bolar Quarry.",
+      },
+      ["questLevel"] = 13,
+      ["requiredLevel"] = 9,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 75,
+            ["factionId"] = 47,
+          },
+          {
+            ["amount"] = 75,
+            ["factionId"] = 54,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          1376,
+        },
+      },
+      ["zoneOrSort"] = 1,
     },
     [965] = {
       ["areaId"] = 148,
@@ -221370,6 +227165,565 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 148,
     },
+    [96604] = {
+      ["exclusiveTo"] = {
+        95998,
+        96101,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          265809,
+        },
+      },
+      ["id"] = 96604,
+      ["name"] = "The Great Outdoors",
+      ["objectives"] = {
+        ["objects"] = {
+          {
+            460003,
+          },
+          {
+            460003,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Sit near Brakk's Basic Campfire by typing /sit in the chat window and wait until you receive the Boosted Rest buff.",
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265809,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96605] = {
+      ["exclusiveTo"] = {
+        95998,
+        96101,
+        96604,
+        96606,
+        96607,
+        96608,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          265810,
+        },
+      },
+      ["id"] = 96605,
+      ["name"] = "The Great Outdoors",
+      ["objectives"] = {
+        ["objects"] = {
+          {
+            460003,
+          },
+          {
+            460003,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Sit near Kaga's Basic Campfire by typing /sit in the chat window and wait until you receive the Boosted Rest buff.",
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265810,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96606] = {
+      ["exclusiveTo"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96607,
+        96608,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          265811,
+        },
+      },
+      ["id"] = 96606,
+      ["name"] = "The Great Outdoors",
+      ["objectives"] = {
+        ["objects"] = {
+          {
+            460003,
+          },
+          {
+            460003,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Sit near Lyreena's Basic Campfire and wait until you receive the Boosted Rest buff.",
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265811,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96607] = {
+      ["exclusiveTo"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96608,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          265812,
+        },
+      },
+      ["id"] = 96607,
+      ["name"] = "The Great Outdoors",
+      ["objectives"] = {
+        ["objects"] = {
+          {
+            460003,
+          },
+          {
+            460003,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Sit near Eleanor's Basic Campfire by typing /sit in the chat window and wait until you receive the Boosted Rest buff.",
+      },
+      ["preQuestSingle"] = {
+        96656,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265812,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96608] = {
+      ["exclusiveTo"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          265813,
+        },
+      },
+      ["id"] = 96608,
+      ["name"] = "The Great Outdoors",
+      ["objectives"] = {
+        ["objects"] = {
+          {
+            460003,
+          },
+          {
+            460003,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Sit near Eric's Basic Campfire by typing /sit in the chat window and wait until you receive the Boosted Rest buff.",
+      },
+      ["preQuestSingle"] = {
+        96628,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265813,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96626] = {
+      ["exclusiveTo"] = {
+        96629,
+        96634,
+        96646,
+        96655,
+        96658,
+        96661,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1430,
+        },
+      },
+      ["id"] = 96626,
+      ["name"] = "Camping 101: Cooking",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            1430,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Tomas in Goldshire to learn to become a cook.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263399,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96627] = {
+      ["exclusiveTo"] = {
+        96628,
+        96630,
+        96638,
+        96652,
+        96656,
+        96659,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          263399,
+        },
+      },
+      ["id"] = 96627,
+      ["name"] = "The Adventurer",
+      ["nextQuestInChain"] = 95998,
+      ["objectivesText"] = {
+        "Speak to Sam Sarsparilla near Goldshire.",
+      },
+      ["preQuestGroup"] = {
+        21,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          197,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96628] = {
+      ["exclusiveTo"] = {
+        96627,
+        96630,
+        96638,
+        96652,
+        96656,
+        96659,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          265813,
+        },
+      },
+      ["id"] = 96628,
+      ["name"] = "The Adventurer",
+      ["nextQuestInChain"] = 96608,
+      ["objectivesText"] = {
+        "Deliver the Supply Bundle to Eric Brighthammer near Kharanos.",
+      },
+      ["preQuestGroup"] = {
+        282,
+      },
+      ["preQuestSingle"] = {
+        282,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["sourceItemId"] = 275019,
+      ["startedBy"] = {
+        ["npcs"] = {
+          1965,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96629] = {
+      ["exclusiveTo"] = {
+        96626,
+        96634,
+        96646,
+        96655,
+        96658,
+        96661,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1699,
+        },
+      },
+      ["id"] = 96629,
+      ["name"] = "Camping 101: Cooking",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            1699,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Gremlock Pilsnor in Kharanos to learn to become a cook.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265813,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96630] = {
+      ["exclusiveTo"] = {
+        96627,
+        96628,
+        96638,
+        96652,
+        96656,
+        96659,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          265811,
+        },
+      },
+      ["id"] = 96630,
+      ["name"] = "The Adventurer",
+      ["nextQuestInChain"] = 96606,
+      ["objectivesText"] = {
+        "Bring the journal to Lyreena Duskblade near Dolanaar.",
+      },
+      ["preQuestGroup"] = {
+        921,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["sourceItemId"] = 275022,
+      ["startedBy"] = {
+        ["objects"] = {
+          654846,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96634] = {
+      ["exclusiveTo"] = {
+        96626,
+        96629,
+        96646,
+        96655,
+        96658,
+        96661,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          6286,
+        },
+      },
+      ["id"] = 96634,
+      ["name"] = "Camping 101: Cooking",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            6286,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Zarrin in Dolanaar to learn to become a cook.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265811,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96638] = {
+      ["exclusiveTo"] = {
+        96627,
+        96628,
+        96630,
+        96652,
+        96656,
+        96659,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          263664,
+        },
+      },
+      ["id"] = 96638,
+      ["name"] = "The Adventurer",
+      ["nextQuestInChain"] = 96101,
+      ["objectivesText"] = {
+        "Speak to Raan Wildwind near Shen'dar Village.",
+      },
+      ["preQuestGroup"] = {
+        92470,
+      },
+      ["preQuestSingle"] = {
+        92470,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          251366,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
     [9664] = {
       ["areaId"] = 139,
       ["finishedBy"] = {
@@ -221428,6 +227782,63 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 139,
     },
+    [96646] = {
+      ["exclusiveTo"] = {
+        96626,
+        96629,
+        96634,
+        96655,
+        96658,
+        96661,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          251905,
+        },
+      },
+      ["id"] = 96646,
+      ["name"] = "Camping 101: Cooking",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            251905,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Zerril Softbreeze in Shen'dar Village to learn to become a cook.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["preQuestSingle"] = {
+        96101,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263664,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
     [9665] = {
       ["areaId"] = 139,
       ["finishedBy"] = {
@@ -221485,6 +227896,276 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 139,
+    },
+    [96652] = {
+      ["exclusiveTo"] = {
+        96627,
+        96628,
+        96630,
+        96638,
+        96656,
+        96659,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          265809,
+        },
+      },
+      ["id"] = 96652,
+      ["name"] = "The Adventurer",
+      ["nextQuestInChain"] = 96604,
+      ["objectivesText"] = {
+        "Bring the journal to Brakk near Razor Hill.",
+      },
+      ["preQuestGroup"] = {
+        794,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["sourceItemId"] = 275022,
+      ["startedBy"] = {
+        ["objects"] = {
+          654925,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96655] = {
+      ["exclusiveTo"] = {
+        96626,
+        96629,
+        96634,
+        96646,
+        96658,
+        96661,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3191,
+        },
+      },
+      ["id"] = 96655,
+      ["name"] = "Camping 101: Cooking",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            3191,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Cook Torka in Razor Hill to learn to become a cook.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          3191,
+          265809,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96656] = {
+      ["exclusiveTo"] = {
+        96627,
+        96628,
+        96630,
+        96638,
+        96652,
+        96659,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          265812,
+        },
+      },
+      ["id"] = 96656,
+      ["name"] = "The Adventurer",
+      ["nextQuestInChain"] = 96607,
+      ["objectivesText"] = {
+        "Speak to Eleanor Shackleton near Brill.",
+      },
+      ["preQuestSingle"] = {
+        382,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          1570,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96658] = {
+      ["exclusiveTo"] = {
+        96626,
+        96629,
+        96634,
+        96646,
+        96655,
+        96661,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          265944,
+        },
+      },
+      ["id"] = 96658,
+      ["name"] = "Camping 101: Cooking",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            265944,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with William Pickman in Brill to learn to become a cook.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["preQuestSingle"] = {
+        96607,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265812,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96659] = {
+      ["exclusiveTo"] = {
+        96627,
+        96628,
+        96630,
+        96638,
+        96652,
+        96656,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          265810,
+        },
+      },
+      ["id"] = 96659,
+      ["name"] = "The Adventurer",
+      ["nextQuestInChain"] = 96605,
+      ["objectivesText"] = {
+        "Deliver the Supply Bundle to Kaga Wildhoof near Bloodhoof Village.",
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["sourceItemId"] = 275019,
+      ["startedBy"] = {
+        ["npcs"] = {
+          2981,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [96661] = {
+      ["exclusiveTo"] = {
+        96626,
+        96629,
+        96634,
+        96646,
+        96655,
+        96658,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3067,
+        },
+      },
+      ["id"] = 96661,
+      ["name"] = "Camping 101: Cooking",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            3067,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Pyall Silentstride in Bloodhoof Village to learn to become a cook.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265810,
+        },
+      },
+      ["zoneOrSort"] = -666,
     },
     [967] = {
       ["areaId"] = 148,
@@ -221579,6 +228260,242 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 148,
+    },
+    [96874] = {
+      ["areaId"] = 14,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          10266,
+        },
+      },
+      ["id"] = 96874,
+      ["name"] = "This Is Spinal Axe",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            275719,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Ug'thok in Orgrimmar wants you to collect 5 Weathered Spines from beasts in Thunder Ridge, along with 5 Rough Grinding Stones.",
+      },
+      ["questLevel"] = 10,
+      ["requiredLevel"] = 6,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 277673,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 75,
+            ["factionId"] = 76,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          10266,
+        },
+      },
+      ["zoneOrSort"] = 14,
+    },
+    [96895] = {
+      ["areaId"] = 85,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          267009,
+        },
+      },
+      ["id"] = 96895,
+      ["name"] = "The Argent Emissary",
+      ["objectivesText"] = {
+        "Find the Argent Dawn member near the entrance to the Undercity.",
+      },
+      ["questLevel"] = 13,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 150,
+            ["factionId"] = 529,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          1738,
+        },
+      },
+      ["zoneOrSort"] = 85,
+    },
+    [96897] = {
+      ["areaId"] = 85,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          267009,
+        },
+      },
+      ["id"] = 96897,
+      ["name"] = "The Cult of the Damned",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            267006,
+          },
+          {
+            275437,
+          },
+          {
+            1547,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Kill 8 Dark Neophytes and 8 Dark Enforcers in Tirisfal Glades.",
+      },
+      ["questLevel"] = 13,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 150,
+            ["factionId"] = 529,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          267009,
+        },
+      },
+      ["zoneOrSort"] = 85,
+    },
+    [96898] = {
+      ["areaId"] = 85,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          267009,
+        },
+      },
+      ["id"] = 96898,
+      ["name"] = "Remnants of War",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            275851,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Gather 12 Necrotic Crystal Fragments in Tirisfal Glades.",
+      },
+      ["questLevel"] = 13,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 150,
+            ["factionId"] = 529,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          267009,
+        },
+      },
+      ["zoneOrSort"] = 85,
+    },
+    [96899] = {
+      ["areaId"] = 85,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          267008,
+        },
+      },
+      ["id"] = 96899,
+      ["name"] = "Bandarion Keep",
+      ["objectivesText"] = {
+        "Meet Leonid Barthalomew at Bandarion Keep in Tirisfal Glades.",
+      },
+      ["questLevel"] = 13,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 150,
+            ["factionId"] = 529,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          267009,
+        },
+      },
+      ["zoneOrSort"] = 85,
     },
     [969] = {
       ["areaId"] = 618,
@@ -221724,6 +228641,76 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 148,
     },
+    [97003] = {
+      ["areaId"] = 17,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          267310,
+        },
+      },
+      ["id"] = 97003,
+      ["name"] = "Chol'aruk the Ravener",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            276070,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Bring the head of Chol'aruk to Gur'ak in the Barrens.",
+      },
+      ["questLevel"] = 21,
+      ["requiredLevel"] = 15,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 276886,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 276887,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 276888,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 276889,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 6,
+          ["multiplier"] = 2,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 150,
+            ["factionId"] = 76,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 6,
+          ["multiplier"] = 2,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          267310,
+        },
+      },
+      ["zoneOrSort"] = 17,
+    },
     [971] = {
       ["areaId"] = 719,
       ["finishedBy"] = {
@@ -221820,6 +228807,740 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = -82,
     },
+    [97242] = {
+      ["areaId"] = 1637,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3348,
+        },
+      },
+      ["id"] = 97242,
+      ["name"] = "Yelmak's Medley",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            277278,
+          },
+          {
+            277279,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Take some cuttings from the Cattails and Speargrass growing around the water flows in the Valley of Honor and return to Kor'geld in Yelmak's Alchemy and Potions",
+      },
+      ["questLevel"] = 15,
+      ["requiredLevel"] = 9,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          3348,
+        },
+      },
+      ["zoneOrSort"] = 1637,
+    },
+    [97243] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          268592,
+        },
+      },
+      ["id"] = 97243,
+      ["name"] = "Call of Fire",
+      ["nextQuestInChain"] = 97244,
+      ["objectivesText"] = {
+        "Bring the Torch of Dormant Flame to Olariaan Swiftburn at the Shrine of Flames in the Gustberry Lowlands.",
+      },
+      ["questLevel"] = 10,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 8589934592,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 25,
+            ["factionId"] = 2778,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["sourceItemId"] = 6653,
+      ["startedBy"] = {
+        ["npcs"] = {
+          252382,
+          254082,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
+    [97244] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          268592,
+        },
+      },
+      ["id"] = 97244,
+      ["name"] = "Call of Fire",
+      ["nextQuestInChain"] = 97245,
+      ["objectives"] = {
+        ["items"] = {
+          {
+            277267,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Slay Skypriest Faladiel in the Gustberry Lowlands and collect Faladiel's Heart.",
+      },
+      ["preQuestGroup"] = {
+        97243,
+      },
+      ["questLevel"] = 10,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 8589934592,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 25,
+            ["factionId"] = 2778,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["startedBy"] = {
+        ["npcs"] = {
+          268592,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
+    [97245] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          268592,
+        },
+      },
+      ["id"] = 97245,
+      ["name"] = "Call of Fire",
+      ["nextQuestInChain"] = 97257,
+      ["objectives"] = {
+        ["items"] = {
+          {
+            277269,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Find the home of Kuramaa in the Shen'dar Highlands, and defeat the spirit in combat. Bring Kuramaa's Mask to Olariaan Swiftburn in the Gustberry Lowlands when you are victorious.",
+      },
+      ["preQuestGroup"] = {
+        97244,
+      },
+      ["questLevel"] = 10,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 8589934592,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 25,
+            ["factionId"] = 2778,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["startedBy"] = {
+        ["npcs"] = {
+          268592,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
+    [97246] = {
+      ["areaId"] = 1637,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3368,
+        },
+      },
+      ["id"] = 97246,
+      ["name"] = "Meal Appeal",
+      ["objectivesText"] = {
+        "Visit Borstan's Firepit and tell him Thatog wants you to deliver Migi's lunch to him personally.",
+      },
+      ["questLevel"] = 15,
+      ["requiredLevel"] = 5,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          268701,
+        },
+      },
+      ["zoneOrSort"] = 1637,
+    },
+    [97249] = {
+      ["areaId"] = 1637,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          268682,
+        },
+      },
+      ["id"] = 97249,
+      ["name"] = "Favorite Food",
+      ["objectivesText"] = {
+        "Bring Migi's Lunch to him behind Grommash Hold",
+      },
+      ["preQuestSingle"] = {
+        97246,
+      },
+      ["questLevel"] = 15,
+      ["requiredLevel"] = 5,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 277284,
+      ["startedBy"] = {
+        ["npcs"] = {
+          3368,
+        },
+      },
+      ["zoneOrSort"] = 1637,
+    },
+    [97250] = {
+      ["areaId"] = 17,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          5911,
+        },
+      },
+      ["id"] = 97250,
+      ["name"] = "Wrongly Blamed, Justly Corrected",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            268622,
+          },
+          {
+            268623,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Slay Alliance soldiers encroaching into the Barrens at the border to Dustwallow Marsh, then return to Grunt Logmar at Camp Taurajo.",
+      },
+      ["questLevel"] = 23,
+      ["requiredLevel"] = 18,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["money"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 277286,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 277288,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 277289,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+        ["xp"] = {
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          5911,
+        },
+      },
+      ["zoneOrSort"] = 17,
+    },
+    [97253] = {
+      ["areaId"] = 17,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          7161,
+        },
+      },
+      ["id"] = 97253,
+      ["name"] = "Parts and Pieces",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            277331,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Collect 5 Handfuls of Complicated Parts from the upper pirate camp south of Ratchet, then return to Wrenix the Wretched in Ratchet.",
+      },
+      ["questLevel"] = 14,
+      ["requiredLevel"] = 9,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["money"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 277332,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          7161,
+        },
+      },
+      ["zoneOrSort"] = 17,
+    },
+    [97257] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          252382,
+        },
+      },
+      ["id"] = 97257,
+      ["name"] = "Call of Fire",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            268762,
+          },
+          {
+            268679,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Wait for Olariaan to begin the ritual at the Brazier of Offering and follow his instructions.",
+        "You must deliver the Eternal Flame to Valanaar before the timer runs out.",
+      },
+      ["preQuestGroup"] = {
+        97245,
+      },
+      ["preQuestSingle"] = {
+        97245,
+      },
+      ["questLevel"] = 10,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 8589934592,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 5176,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 263412,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 25,
+            ["factionId"] = 2778,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["sourceItemId"] = 277329,
+      ["startedBy"] = {
+        ["npcs"] = {
+          268592,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
+    [97277] = {
+      ["areaId"] = 77,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          2756,
+        },
+      },
+      ["id"] = 97277,
+      ["name"] = "Grund and Gozwin",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            269075,
+          },
+        },
+        ["items"] = {
+          {
+            277976,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Find Grund and Gozwin's camp in the hills to the northwest. Recover Gozwin's Mechanic's Log and kill the Snow Leopard Prowler.",
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 277977,
+          },
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 75,
+            ["factionId"] = 47,
+          },
+          {
+            ["amount"] = 75,
+            ["factionId"] = 54,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          2756,
+        },
+      },
+      ["zoneOrSort"] = 77,
+    },
+    [97288] = {
+      ["areaId"] = 16611,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          2055,
+        },
+      },
+      ["id"] = 97288,
+      ["name"] = "Unending Torment",
+      ["objectivesText"] = {
+        "Deliver the Abominable Head to Master Apothecary Faranell within the Undercity.",
+      },
+      ["questLevel"] = 21,
+      ["requiredLevel"] = 16,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["items"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 279864,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 279865,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 279867,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 280438,
+      ["startedBy"] = {
+        ["items"] = {
+          280438,
+        },
+      },
+      ["zoneOrSort"] = 16611,
+    },
+    [97289] = {
+      ["areaId"] = 16611,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          271613,
+        },
+      },
+      ["id"] = 97289,
+      ["name"] = "Unending Torment",
+      ["objectivesText"] = {
+        "Bring the Head of the Baron to the body of Othmar in the Undercity.",
+      },
+      ["preQuestSingle"] = {
+        97288,
+      },
+      ["questLevel"] = 21,
+      ["requiredLevel"] = 16,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 268518,
+      ["startedBy"] = {
+        ["npcs"] = {
+          2055,
+        },
+      },
+      ["zoneOrSort"] = 16611,
+    },
+    [97290] = {
+      ["areaId"] = 1497,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          2055,
+        },
+      },
+      ["id"] = 97290,
+      ["name"] = "Unending Torment",
+      ["objectivesText"] = {
+        "Report your findings to Master Apothecary Faranell in Undercity.",
+      },
+      ["preQuestSingle"] = {
+        97289,
+      },
+      ["questLevel"] = 21,
+      ["requiredLevel"] = 16,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["money"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 279867,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 279865,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 279864,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          271613,
+        },
+      },
+      ["zoneOrSort"] = 1497,
+    },
+    [97291] = {
+      ["areaId"] = 16611,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          2055,
+        },
+      },
+      ["id"] = 97291,
+      ["name"] = "Unending Torment",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            281300,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Collect a Toxic Skullcap from Tawny Grisette in the Trade Quarter, Blisterweed near the Herbalism Trainer, and Essence of Agony from the poison vendor in the Rogues' Quarter for Master Apothecary Faranell in Undercity.",
+      },
+      ["preQuestSingle"] = {
+        97290,
+      },
+      ["questLevel"] = 21,
+      ["requiredLevel"] = 16,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          2055,
+        },
+      },
+      ["zoneOrSort"] = 16611,
+    },
+    [97292] = {
+      ["areaId"] = 16611,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          2055,
+        },
+      },
+      ["id"] = 97292,
+      ["name"] = "Unending Torment",
+      ["objectivesText"] = {
+        "Inject the Hissing Serum into the system above Othmar's body for Master Apothecary Faranell.",
+      },
+      ["preQuestSingle"] = {
+        97291,
+      },
+      ["questLevel"] = 21,
+      ["requiredLevel"] = 16,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 281327,
+      ["startedBy"] = {
+        ["npcs"] = {
+          2055,
+        },
+      },
+      ["zoneOrSort"] = 16611,
+    },
     [973] = {
       ["areaId"] = 148,
       ["finishedBy"] = {
@@ -221887,6 +229608,74 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 148,
     },
+    [97326] = {
+      ["areaId"] = 1637,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          268684,
+        },
+      },
+      ["id"] = 97326,
+      ["name"] = "Rocks to Rests",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            277952,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Return 8 Smooth Boulders to Thra behind Grommash Hold.",
+      },
+      ["questLevel"] = 15,
+      ["requiredLevel"] = 5,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 281269,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 281270,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 281271,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 281272,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 281273,
+          },
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 76,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          268684,
+        },
+      },
+      ["zoneOrSort"] = 1637,
+    },
     [974] = {
       ["areaId"] = 490,
       ["finishedBy"] = {
@@ -221936,6 +229725,70 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 490,
     },
+    [97485] = {
+      ["areaId"] = 1638,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          269068,
+        },
+      },
+      ["id"] = 97485,
+      ["name"] = "Traditions of the Bluff",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            278078,
+          },
+        },
+        ["objects"] = {
+          {
+            665373,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Purchase a Bundle of Herbs from Nida the herbalist, a Bundle of Ceder Twigs from Nata the enchanting supplier, and Sinew Thread from Mahu the leatherworking supplier and Ceremonial Flint and Tinder from Naal the cooking supplier.",
+        "Combine the items and sprinkle the incense off of Hunter's Rise.",
+      },
+      ["questLevel"] = 10,
+      ["requiredLevel"] = 3,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 5,
+            ["itemId"] = 281040,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 81,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          269068,
+        },
+      },
+      ["zoneOrSort"] = 1638,
+    },
     [975] = {
       ["areaId"] = 618,
       ["finishedBy"] = {
@@ -221973,6 +229826,78 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 618,
+    },
+    [97558] = {
+      ["areaId"] = 85,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3549,
+        },
+      },
+      ["id"] = 97558,
+      ["name"] = "Hides for the Forsaken",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            278242,
+          },
+          {
+            278243,
+          },
+          {
+            278244,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Bring Shelene Rhobart 8 Duskbat Wing Membranes, 6 Darkhound Hides and 3 Vile Fin Murloc Skin.",
+      },
+      ["questLevel"] = 11,
+      ["requiredLevel"] = 6,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 281283,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 281284,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 281285,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 75,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          3549,
+        },
+      },
+      ["zoneOrSort"] = 85,
     },
     [976] = {
       ["areaId"] = 331,
@@ -222146,6 +230071,97 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 702,
     },
+    [97891] = {
+      ["areaId"] = 1497,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          11044,
+        },
+      },
+      ["id"] = 97891,
+      ["name"] = "Prompt Potion Runner",
+      ["objectivesText"] = {
+        "Bring the Unstable Potion to Doctor Martin Felben in the Apothecarium within the time limit.",
+      },
+      ["questLevel"] = 16,
+      ["requiredLevel"] = 9,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 150,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 279020,
+      ["startedBy"] = {
+        ["npcs"] = {
+          7683,
+        },
+      },
+      ["zoneOrSort"] = 1497,
+    },
+    [97899] = {
+      ["exclusiveTo"] = {
+        96045,
+        97915,
+        97927,
+        97938,
+        97951,
+        97963,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          11046,
+        },
+      },
+      ["id"] = 97899,
+      ["name"] = "Camping 101: Alchemy",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            11046,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Whuut in Orgrimmar to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265809,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
     [979] = {
       ["areaId"] = 702,
       ["finishedBy"] = {
@@ -222193,6 +230209,2933 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 702,
+    },
+    [97900] = {
+      ["exclusiveTo"] = {
+        96044,
+        97916,
+        97928,
+        97939,
+        97952,
+        97964,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3174,
+        },
+      },
+      ["id"] = 97900,
+      ["name"] = "Camping 101: Blacksmithing",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            3174,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Dwukk in Razor Hill to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265809,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97901] = {
+      ["exclusiveTo"] = {
+        96059,
+        97917,
+        97929,
+        97940,
+        97953,
+        98284,
+        98286,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          11066,
+        },
+      },
+      ["id"] = 97901,
+      ["name"] = "Camping 101: Enchanting",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            11066,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Jhag in Orgrimmar to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265809,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97903] = {
+      ["exclusiveTo"] = {
+        96047,
+        97919,
+        97931,
+        97942,
+        97955,
+        97965,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          5943,
+        },
+      },
+      ["id"] = 97903,
+      ["name"] = "Camping 101: First Aid",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            5943,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Rawrk in Razor Hill to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265809,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97904] = {
+      ["exclusiveTo"] = {
+        96050,
+        97920,
+        97932,
+        97943,
+        97956,
+        97967,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          5941,
+        },
+      },
+      ["id"] = 97904,
+      ["name"] = "Camping 101: Fishing",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            5941,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Lau'Tiki near Sen'jin Village to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265809,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97905] = {
+      ["exclusiveTo"] = {
+        96055,
+        97921,
+        97933,
+        97944,
+        97957,
+        97968,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3404,
+        },
+      },
+      ["id"] = 97905,
+      ["name"] = "Camping 101: Herbalism",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            3404,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Jandi in Orgrimmar to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265809,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97906] = {
+      ["exclusiveTo"] = {
+        96031,
+        97922,
+        97934,
+        97946,
+        97958,
+        97969,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3365,
+        },
+      },
+      ["id"] = 97906,
+      ["name"] = "Camping 101: Leatherworking",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            3365,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Karolek in Orgrimmar to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265809,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97907] = {
+      ["exclusiveTo"] = {
+        96046,
+        97923,
+        97935,
+        97948,
+        97959,
+        97970,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3175,
+        },
+      },
+      ["id"] = 97907,
+      ["name"] = "Camping 101: Mining",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            3175,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Krunn in Razor Hill to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265809,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97908] = {
+      ["exclusiveTo"] = {
+        96056,
+        97924,
+        97936,
+        97949,
+        97960,
+        97971,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          7088,
+        },
+      },
+      ["id"] = 97908,
+      ["name"] = "Camping 101: Skinning",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            7088,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Thuwd in Orgrimmar to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265809,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97915] = {
+      ["exclusiveTo"] = {
+        96045,
+        97899,
+        97927,
+        97938,
+        97951,
+        97963,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1215,
+        },
+      },
+      ["id"] = 97915,
+      ["name"] = "Camping 101: Alchemy",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            1215,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Alchemist Mallory in Elwynn Forest near Stormwind to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263399,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97916] = {
+      ["exclusiveTo"] = {
+        96044,
+        97900,
+        97928,
+        97939,
+        97952,
+        97964,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          514,
+        },
+      },
+      ["id"] = 97916,
+      ["name"] = "Camping 101: Blacksmithing",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            514,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Smith Argus in Goldshire to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263399,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97917] = {
+      ["exclusiveTo"] = {
+        96059,
+        97901,
+        97929,
+        97940,
+        97953,
+        98284,
+        98286,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          11068,
+        },
+      },
+      ["id"] = 97917,
+      ["name"] = "Camping 101: Enchanting",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            11068,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Betty Quin in Stormwind to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263399,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97919] = {
+      ["exclusiveTo"] = {
+        96047,
+        97903,
+        97931,
+        97942,
+        97955,
+        97965,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          2329,
+        },
+      },
+      ["id"] = 97919,
+      ["name"] = "Camping 101: First Aid",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            2329,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Michelle Belle in Goldshire to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263399,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97920] = {
+      ["exclusiveTo"] = {
+        96050,
+        97904,
+        97932,
+        97943,
+        97956,
+        97967,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1651,
+        },
+      },
+      ["id"] = 97920,
+      ["name"] = "Camping 101: Fishing",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            1651,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Lee Brown near Goldshire to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263399,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97921] = {
+      ["exclusiveTo"] = {
+        96055,
+        97905,
+        97933,
+        97944,
+        97957,
+        97968,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1218,
+        },
+      },
+      ["id"] = 97921,
+      ["name"] = "Camping 101: Herbalism",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            1218,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Herbalist Pomeroy in Elwynn Forest to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263399,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97922] = {
+      ["exclusiveTo"] = {
+        96031,
+        97906,
+        97934,
+        97946,
+        97958,
+        97969,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1632,
+        },
+      },
+      ["id"] = 97922,
+      ["name"] = "Camping 101: Leatherworking",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            1632,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Adele Fielder in Goldshire to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263399,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97923] = {
+      ["exclusiveTo"] = {
+        96046,
+        97907,
+        97935,
+        97948,
+        97959,
+        97970,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          5513,
+        },
+      },
+      ["id"] = 97923,
+      ["name"] = "Camping 101: Mining",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            5513,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Gelman Stonehand in Stormwind to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["preQuestSingle"] = {
+        96101,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["requiredSkill"] = {
+        ["id"] = 186,
+        ["value"] = 1,
+      },
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263399,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97924] = {
+      ["exclusiveTo"] = {
+        96056,
+        97908,
+        97936,
+        97949,
+        97960,
+        97971,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          6306,
+        },
+      },
+      ["id"] = 97924,
+      ["name"] = "Camping 101: Skinning",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            6306,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Helene Peltskinner in Goldshire to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263399,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97925] = {
+      ["exclusiveTo"] = {
+        96057,
+        96102,
+        97937,
+        97950,
+        97961,
+        97972,
+        97973,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1103,
+        },
+      },
+      ["id"] = 97925,
+      ["name"] = "Camping 101: Tailoring",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            1103,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Eldrin in the Eastvale Logging Camp in Elwynn Forest to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263399,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97927] = {
+      ["exclusiveTo"] = {
+        96045,
+        97899,
+        97915,
+        97938,
+        97951,
+        97963,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          11047,
+        },
+      },
+      ["id"] = 97927,
+      ["name"] = "Camping 101: Alchemy",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            11047,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Kray in Thunder Bluff to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265810,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97928] = {
+      ["exclusiveTo"] = {
+        96044,
+        97900,
+        97916,
+        97939,
+        97952,
+        97964,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          10278,
+        },
+      },
+      ["id"] = 97928,
+      ["name"] = "Camping 101: Blacksmithing",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            10278,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Thrag Stonehoof in Thunder Bluff to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265810,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97929] = {
+      ["exclusiveTo"] = {
+        96059,
+        97901,
+        97917,
+        97940,
+        97953,
+        98284,
+        98286,
+      },
+      ["id"] = 97929,
+      ["name"] = "Camping 101: Enchanting",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            11071,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Mot Dawnstrider in Thunder Bluff to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265810,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97931] = {
+      ["exclusiveTo"] = {
+        96047,
+        97903,
+        97919,
+        97942,
+        97955,
+        97965,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          5939,
+        },
+      },
+      ["id"] = 97931,
+      ["name"] = "Camping 101: First Aid",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            5939,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Vira Younghoof in Bloodhoof Village to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265810,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97932] = {
+      ["exclusiveTo"] = {
+        96050,
+        97904,
+        97920,
+        97943,
+        97956,
+        97967,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          5938,
+        },
+      },
+      ["id"] = 97932,
+      ["name"] = "Camping 101: Fishing",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            5938,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Uthan Stillwater in Bloodhoof Village to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265810,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97933] = {
+      ["exclusiveTo"] = {
+        96055,
+        97905,
+        97921,
+        97944,
+        97957,
+        97968,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3013,
+        },
+      },
+      ["id"] = 97933,
+      ["name"] = "Camping 101: Herbalism",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            3013,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Komin Winterhoof in Thunder Bluff to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265810,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97934] = {
+      ["exclusiveTo"] = {
+        96031,
+        97906,
+        97922,
+        97946,
+        97958,
+        97969,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3069,
+        },
+      },
+      ["id"] = 97934,
+      ["name"] = "Camping 101: Leatherworking",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            3069,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Chaw Stronghide in Bloodhoof Village to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265810,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97935] = {
+      ["exclusiveTo"] = {
+        96046,
+        97907,
+        97923,
+        97948,
+        97959,
+        97970,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3001,
+        },
+      },
+      ["id"] = 97935,
+      ["name"] = "Camping 101: Mining",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            3001,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Brek Stonehoof in Thunder Bluff to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265810,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97936] = {
+      ["exclusiveTo"] = {
+        96056,
+        97908,
+        97924,
+        97949,
+        97960,
+        97971,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          6290,
+        },
+      },
+      ["id"] = 97936,
+      ["name"] = "Camping 101: Skinning",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            6290,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Yonn Deepcut in Bloodhoof Village to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265810,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97937] = {
+      ["exclusiveTo"] = {
+        96057,
+        96102,
+        97925,
+        97950,
+        97961,
+        97972,
+        97973,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          11051,
+        },
+      },
+      ["id"] = 97937,
+      ["name"] = "Camping 101: Tailoring",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            11051,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Vhan in Thunder Bluff to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265810,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97938] = {
+      ["exclusiveTo"] = {
+        96045,
+        97899,
+        97915,
+        97927,
+        97951,
+        97963,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3603,
+        },
+      },
+      ["id"] = 97938,
+      ["name"] = "Camping 101: Alchemy",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            3603,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Cyndra Kindwhisper in Dolanaar to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265811,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97939] = {
+      ["exclusiveTo"] = {
+        96044,
+        97900,
+        97916,
+        97928,
+        97952,
+        97964,
+      },
+      ["id"] = 97939,
+      ["name"] = "Camping 101: Blacksmithing",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            6300,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Elisa Steelhand in Auberdine in Darkshore to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265811,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97940] = {
+      ["exclusiveTo"] = {
+        96059,
+        97901,
+        97917,
+        97929,
+        97953,
+        98284,
+        98286,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3606,
+        },
+      },
+      ["id"] = 97940,
+      ["name"] = "Camping 101: Enchanting",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            3606,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Alanna Raveneye in the Oracle Glade in Teldrassil to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265811,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97942] = {
+      ["exclusiveTo"] = {
+        96047,
+        97903,
+        97919,
+        97931,
+        97955,
+        97965,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          6094,
+        },
+      },
+      ["id"] = 97942,
+      ["name"] = "Camping 101: First Aid",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            6094,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Byancie in Dolanaar to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265811,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97943] = {
+      ["exclusiveTo"] = {
+        96050,
+        97904,
+        97920,
+        97932,
+        97956,
+        97967,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          4156,
+        },
+      },
+      ["id"] = 97943,
+      ["name"] = "Camping 101: Fishing",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            4156,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Astaia in Darnassus to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265811,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97944] = {
+      ["exclusiveTo"] = {
+        96055,
+        97905,
+        97921,
+        97933,
+        97957,
+        97968,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3604,
+        },
+      },
+      ["id"] = 97944,
+      ["name"] = "Camping 101: Herbalism",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            3604,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Malorne Bladeleaf in Dolanaar to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265811,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97946] = {
+      ["exclusiveTo"] = {
+        96031,
+        97906,
+        97922,
+        97934,
+        97958,
+        97969,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3605,
+        },
+      },
+      ["id"] = 97946,
+      ["name"] = "Camping 101: Leatherworking",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            3605,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Nadyia Maneweaver on the road to Darnassus from Dolanaar to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265811,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97948] = {
+      ["exclusiveTo"] = {
+        96046,
+        97907,
+        97923,
+        97935,
+        97959,
+        97970,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          6297,
+        },
+      },
+      ["id"] = 97948,
+      ["name"] = "Camping 101: Mining",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            6297,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Kurdram Stonehammer in Auberdine to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265811,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97949] = {
+      ["exclusiveTo"] = {
+        96056,
+        97908,
+        97924,
+        97936,
+        97960,
+        97971,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          6287,
+        },
+      },
+      ["id"] = 97949,
+      ["name"] = "Camping 101: Skinning",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            6287,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Radnaal Maneweaver on the road to Darnassus from Dolanaar to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265811,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97950] = {
+      ["exclusiveTo"] = {
+        96057,
+        96102,
+        97925,
+        97937,
+        97961,
+        97972,
+        97973,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          11050,
+        },
+      },
+      ["id"] = 97950,
+      ["name"] = "Camping 101: Tailoring",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            11050,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Trianna in Darnassus to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265811,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97951] = {
+      ["exclusiveTo"] = {
+        96045,
+        97899,
+        97915,
+        97927,
+        97938,
+        97963,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          2132,
+        },
+      },
+      ["id"] = 97951,
+      ["name"] = "Camping 101: Alchemy",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            2132,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Carolai Anise in Brill to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265812,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97952] = {
+      ["exclusiveTo"] = {
+        96044,
+        97900,
+        97916,
+        97928,
+        97939,
+        97964,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          4605,
+        },
+      },
+      ["id"] = 97952,
+      ["name"] = "Camping 101: Blacksmithing",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            4605,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Basil Frye in Undercity to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265812,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97953] = {
+      ["exclusiveTo"] = {
+        96059,
+        97901,
+        97917,
+        97929,
+        97940,
+        98284,
+        98286,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          5695,
+        },
+      },
+      ["id"] = 97953,
+      ["name"] = "Camping 101: Enchanting",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            5695,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Vance Undergloom in Brill to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265812,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97955] = {
+      ["exclusiveTo"] = {
+        96047,
+        97903,
+        97919,
+        97931,
+        97942,
+        97965,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          5759,
+        },
+      },
+      ["id"] = 97955,
+      ["name"] = "Camping 101: First Aid",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            5759,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Nurse Neela in Brill to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265812,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97956] = {
+      ["exclusiveTo"] = {
+        96050,
+        97904,
+        97920,
+        97932,
+        97943,
+        97967,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          5690,
+        },
+      },
+      ["id"] = 97956,
+      ["name"] = "Camping 101: Fishing",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            5690,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Clyde Kellen in Brill to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265812,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97957] = {
+      ["exclusiveTo"] = {
+        96055,
+        97905,
+        97921,
+        97933,
+        97944,
+        97968,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          2114,
+        },
+      },
+      ["id"] = 97957,
+      ["name"] = "Camping 101: Herbalism",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            2114,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Faruza in Brill to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["preQuestSingle"] = {
+        96607,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["requiredSkill"] = {
+        ["id"] = 182,
+        ["value"] = 1,
+      },
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265812,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97958] = {
+      ["exclusiveTo"] = {
+        96031,
+        97906,
+        97922,
+        97934,
+        97946,
+        97969,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3549,
+        },
+      },
+      ["id"] = 97958,
+      ["name"] = "Camping 101: Leatherworking",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            3549,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Shelene Rhobart on the road to Undercity from Brill to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265812,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97959] = {
+      ["exclusiveTo"] = {
+        96046,
+        97907,
+        97923,
+        97935,
+        97948,
+        97970,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          4598,
+        },
+      },
+      ["id"] = 97959,
+      ["name"] = "Camping 101: Mining",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            4598,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Brom Killian in Undercity to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265812,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97960] = {
+      ["exclusiveTo"] = {
+        96056,
+        97908,
+        97924,
+        97936,
+        97949,
+        97971,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          6289,
+        },
+      },
+      ["id"] = 97960,
+      ["name"] = "Camping 101: Skinning",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            6289,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Rand Rhobart on the road to Undercity from Brill to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265812,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97961] = {
+      ["exclusiveTo"] = {
+        96057,
+        96102,
+        97925,
+        97937,
+        97950,
+        97972,
+        97973,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3523,
+        },
+      },
+      ["id"] = 97961,
+      ["name"] = "Camping 101: Tailoring",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            3523,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Bowen Brisboise on the road to Brill from Deathknell to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          265812,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97963] = {
+      ["exclusiveTo"] = {
+        96045,
+        97899,
+        97915,
+        97927,
+        97938,
+        97951,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          257019,
+        },
+      },
+      ["id"] = 97963,
+      ["name"] = "Camping 101: Alchemy",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            257019,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Nyassa Swiftdraught in Shen'dar Village to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["preQuestSingle"] = {
+        96101,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredSkill"] = {
+        ["id"] = 171,
+        ["value"] = 1,
+      },
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263664,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97964] = {
+      ["exclusiveTo"] = {
+        96044,
+        97900,
+        97916,
+        97928,
+        97939,
+        97952,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          251913,
+        },
+      },
+      ["id"] = 97964,
+      ["name"] = "Camping 101: Blacksmithing",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            251913,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Aedi Thriceforged in Shen'dar Village to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["preQuestSingle"] = {
+        96101,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredSkill"] = {
+        ["id"] = 164,
+        ["value"] = 1,
+      },
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263664,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97965] = {
+      ["exclusiveTo"] = {
+        96047,
+        97903,
+        97919,
+        97931,
+        97942,
+        97955,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          257018,
+        },
+      },
+      ["id"] = 97965,
+      ["name"] = "Camping 101: First Aid",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            257018,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Naleeia Tattermend in Shen'dar Village to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["preQuestSingle"] = {
+        96101,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredSkill"] = {
+        ["id"] = 129,
+        ["value"] = 1,
+      },
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263664,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97967] = {
+      ["exclusiveTo"] = {
+        96050,
+        97904,
+        97920,
+        97932,
+        97943,
+        97956,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          251992,
+        },
+      },
+      ["id"] = 97967,
+      ["name"] = "Camping 101: Fishing",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            251992,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Fenn Fairweather in Shen'dar Village to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["preQuestSingle"] = {
+        96101,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredSkill"] = {
+        ["id"] = 356,
+        ["value"] = 1,
+      },
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263664,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97968] = {
+      ["exclusiveTo"] = {
+        96055,
+        97905,
+        97921,
+        97933,
+        97944,
+        97957,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          254345,
+        },
+      },
+      ["id"] = 97968,
+      ["name"] = "Camping 101: Herbalism",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            254345,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Syriel Nightrain in Valanaar to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["preQuestSingle"] = {
+        96101,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredSkill"] = {
+        ["id"] = 182,
+        ["value"] = 1,
+      },
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263664,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97969] = {
+      ["exclusiveTo"] = {
+        96031,
+        97906,
+        97922,
+        97934,
+        97946,
+        97958,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          251993,
+        },
+      },
+      ["id"] = 97969,
+      ["name"] = "Camping 101: Leatherworking",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            251993,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Indari Sunseam in Shen'dar Village to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["preQuestSingle"] = {
+        96101,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredSkill"] = {
+        ["id"] = 165,
+        ["value"] = 1,
+      },
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263664,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97970] = {
+      ["exclusiveTo"] = {
+        96046,
+        97907,
+        97923,
+        97935,
+        97948,
+        97959,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          257022,
+        },
+      },
+      ["id"] = 97970,
+      ["name"] = "Camping 101: Mining",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            257022,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Messana Crestwind in Shen'dar Village to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["preQuestSingle"] = {
+        96101,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredSkill"] = {
+        ["id"] = 186,
+        ["value"] = 1,
+      },
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263664,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97971] = {
+      ["exclusiveTo"] = {
+        96056,
+        97908,
+        97924,
+        97936,
+        97949,
+        97960,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          257024,
+        },
+      },
+      ["id"] = 97971,
+      ["name"] = "Camping 101: Skinning",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            257024,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Mendalass Tattermend in Shen'dar Village to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["preQuestSingle"] = {
+        96101,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredSkill"] = {
+        ["id"] = 393,
+        ["value"] = 1,
+      },
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263664,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97972] = {
+      ["exclusiveTo"] = {
+        96057,
+        96102,
+        97925,
+        97937,
+        97950,
+        97961,
+        97973,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          251991,
+        },
+      },
+      ["id"] = 97972,
+      ["name"] = "Camping 101: Tailoring",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            251991,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Taleen Shimmerthread in Shen'dar Village to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["preQuestSingle"] = {
+        96101,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["requiredSkill"] = {
+        ["id"] = 197,
+        ["value"] = 1,
+      },
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263664,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [97973] = {
+      ["exclusiveTo"] = {
+        96057,
+        96102,
+        97925,
+        97937,
+        97950,
+        97961,
+        97972,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          251991,
+        },
+      },
+      ["id"] = 97973,
+      ["name"] = "Camping 101: Tailoring",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            251991,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Taleen Shimmerthread in Shen'dar Village to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263664,
+        },
+      },
+      ["zoneOrSort"] = -666,
     },
     [98] = {
       ["areaId"] = 10,
@@ -222295,6 +233238,106 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 490,
+    },
+    [98021] = {
+      ["areaId"] = 40,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          234,
+        },
+      },
+      ["id"] = 98021,
+      ["name"] = "Journey to Sentinel Hill",
+      ["objectivesText"] = {
+        "Report To Gryan Stoutmantle at Sentinel Hill in Westfall.",
+      },
+      ["preQuestGroup"] = {
+        94947,
+      },
+      ["preQuestSingle"] = {
+        94947,
+      },
+      ["questLevel"] = 13,
+      ["requiredLevel"] = 7,
+      ["requiredRaces"] = 4294967296,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 25,
+            ["factionId"] = 2779,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          1748,
+        },
+      },
+      ["zoneOrSort"] = 40,
+    },
+    [98024] = {
+      ["areaId"] = 17,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3429,
+        },
+      },
+      ["id"] = 98024,
+      ["name"] = "Journey to the Crossroads",
+      ["objectivesText"] = {
+        "Report To Thork at The Crossroads in The Barrens.",
+      },
+      ["preQuestGroup"] = {
+        95350,
+      },
+      ["preQuestSingle"] = {
+        95350,
+      },
+      ["questLevel"] = 13,
+      ["requiredLevel"] = 7,
+      ["requiredRaces"] = 8589934592,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 25,
+            ["factionId"] = 2778,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          4949,
+        },
+      },
+      ["zoneOrSort"] = 17,
     },
     [981] = {
       ["areaId"] = 148,
@@ -222415,6 +233458,116 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 148,
     },
+    [98284] = {
+      ["exclusiveTo"] = {
+        96059,
+        97901,
+        97917,
+        97929,
+        97940,
+        97953,
+        98286,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          257020,
+        },
+      },
+      ["id"] = 98284,
+      ["name"] = "Camping 101: Enchanting",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            257020,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Nasalanna Windsinger in Shen'dar Village to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["preQuestSingle"] = {
+        96101,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["requiredSkill"] = {
+        ["id"] = 333,
+        ["value"] = 1,
+      },
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263664,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
+    [98286] = {
+      ["exclusiveTo"] = {
+        96059,
+        97901,
+        97917,
+        97929,
+        97940,
+        97953,
+        98284,
+      },
+      ["finishedBy"] = {
+        ["npcs"] = {
+          257020,
+        },
+      },
+      ["id"] = 98286,
+      ["name"] = "Camping 101: Enchanting",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            257020,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Speak with Nasalanna Windsinger in Shen'dar Village to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      },
+      ["preQuestGroup"] = {
+        95998,
+        96101,
+        96604,
+        96605,
+        96606,
+        96607,
+        96608,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["sortId"] = -666,
+      ["startedBy"] = {
+        ["npcs"] = {
+          263664,
+        },
+      },
+      ["zoneOrSort"] = -666,
+    },
     [983] = {
       ["areaId"] = 148,
       ["finishedBy"] = {
@@ -222467,6 +233620,471 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 148,
+    },
+    [98319] = {
+      ["areaId"] = 1,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          271546,
+        },
+      },
+      ["id"] = 98319,
+      ["name"] = "Secure the Mountain",
+      ["nextQuestInChain"] = 98323,
+      ["objectives"] = {
+        ["objects"] = {
+          {
+            460004,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Find Mountaineer Cornelius in the Grizzled Den for Mountaineer Gretchen.",
+      },
+      ["preQuestGroup"] = {
+        98322,
+      },
+      ["preQuestSingle"] = {
+        98322,
+      },
+      ["questLevel"] = 8,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 47,
+          },
+          {
+            ["amount"] = 100,
+            ["factionId"] = 54,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 2,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          271546,
+        },
+      },
+      ["zoneOrSort"] = 1,
+    },
+    [98321] = {
+      ["areaId"] = 1,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1241,
+        },
+      },
+      ["id"] = 98321,
+      ["name"] = "Flintfire's Shipment",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            280413,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Collect 8 Flintfire Shipments from the Grizzled Den for Tongus Flintfire in Kharanos.",
+      },
+      ["questLevel"] = 7,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 2,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 47,
+          },
+          {
+            ["amount"] = 100,
+            ["factionId"] = 54,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          1241,
+        },
+      },
+      ["zoneOrSort"] = 1,
+    },
+    [98322] = {
+      ["areaId"] = 1,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          271546,
+        },
+      },
+      ["id"] = 98322,
+      ["name"] = "Secure the Mountain",
+      ["nextQuestInChain"] = 98319,
+      ["objectivesText"] = {
+        "Check in on Mountaineer Gretchen west of Kharanos.",
+      },
+      ["preQuestSingle"] = {
+        420,
+      },
+      ["questLevel"] = 8,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 47,
+          },
+          {
+            ["amount"] = 100,
+            ["factionId"] = 54,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 1,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          1252,
+        },
+      },
+      ["zoneOrSort"] = 1,
+    },
+    [98323] = {
+      ["areaId"] = 1,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1252,
+        },
+      },
+      ["id"] = 98323,
+      ["name"] = "Secure the Mountain",
+      ["objectivesText"] = {
+        "Deliver Mountaineer Gretchen's Report back to Senir Whitebeard in Kharanos.",
+      },
+      ["preQuestGroup"] = {
+        98319,
+      },
+      ["preQuestSingle"] = {
+        98319,
+      },
+      ["questLevel"] = 8,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 47,
+          },
+          {
+            ["amount"] = 100,
+            ["factionId"] = 54,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 1,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 280430,
+      ["startedBy"] = {
+        ["npcs"] = {
+          271546,
+        },
+      },
+      ["zoneOrSort"] = 1,
+    },
+    [98340] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          11802,
+        },
+      },
+      ["id"] = 98340,
+      ["name"] = "The Great Cat Spirit",
+      ["objectivesText"] = {
+        "Speak with Dendrite Starblaze in the village of Nighthaven, Moonglade.",
+      },
+      ["questLevel"] = 20,
+      ["requiredClasses"] = 1024,
+      ["requiredLevel"] = 20,
+      ["requiredRaces"] = 8589934624,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 25,
+            ["factionId"] = 609,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 2,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -263,
+      ["startedBy"] = {
+        ["npcs"] = {
+          3033,
+        },
+      },
+      ["zoneOrSort"] = -263,
+    },
+    [98341] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          272054,
+        },
+      },
+      ["id"] = 98341,
+      ["name"] = "The Great Windborne Cat Spirit",
+      ["objectivesText"] = {
+        "Seek out the Avatar of Saeyleenan in southern part Moonglade and learn what it has to share with you about the nature of the windborne cat.",
+      },
+      ["preQuestSingle"] = {
+        98340,
+      },
+      ["questLevel"] = 20,
+      ["requiredLevel"] = 20,
+      ["requiredRaces"] = 12884901888,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 609,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -263,
+      ["startedBy"] = {
+        ["npcs"] = {
+          11802,
+        },
+      },
+      ["zoneOrSort"] = -263,
+    },
+    [98342] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          11957,
+        },
+      },
+      ["id"] = 98342,
+      ["name"] = "The Great Cat Spirit",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            280502,
+          },
+          {
+            280679,
+          },
+          {
+            280680,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Recover the Relic of the Fang, Relic of the Claw, and Relic of the Silent Shadow from the Stormrage Barrow Den, and return them to the Great Cat Spirit.",
+      },
+      ["preQuestSingle"] = {
+        98405,
+      },
+      ["questLevel"] = 20,
+      ["requiredClasses"] = 1024,
+      ["requiredLevel"] = 20,
+      ["requiredRaces"] = 32,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 609,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -263,
+      ["startedBy"] = {
+        ["npcs"] = {
+          11957,
+        },
+      },
+      ["zoneOrSort"] = -263,
+    },
+    [98362] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3033,
+        },
+      },
+      ["id"] = 98362,
+      ["name"] = "To Thunder Bluff",
+      ["objectivesText"] = {
+        "Return to Thunder Bluff and speak with Turak Runetotem on the Elder Rise.",
+      },
+      ["preQuestSingle"] = {
+        98739,
+      },
+      ["questLevel"] = 20,
+      ["requiredClasses"] = 1024,
+      ["requiredLevel"] = 20,
+      ["requiredRaces"] = 8589934624,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 1,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -263,
+      ["startedBy"] = {
+        ["npcs"] = {
+          11802,
+        },
+      },
+      ["zoneOrSort"] = -263,
+    },
+    [98386] = {
+      ["areaId"] = 44,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          341,
+        },
+      },
+      ["id"] = 98386,
+      ["name"] = "Alther's Mill",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            505,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Slay 12 Greater Tarantulas and destroy 6 Tarantula Eggs in Alther's Mill for Foreman Oslow in Redridge.",
+      },
+      ["questLevel"] = 21,
+      ["requiredLevel"] = 15,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 72,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          341,
+        },
+      },
+      ["zoneOrSort"] = 44,
+    },
+    [98389] = {
+      ["areaId"] = 85,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          244808,
+        },
+      },
+      ["id"] = 98389,
+      ["name"] = "A Light in the Darkness",
+      ["objectivesText"] = {
+        "Free 6 Webbed Victims in Night's Web Hollow for Aramis Hammerhand in Deathknell.",
+      },
+      ["questLevel"] = 4,
+      ["requiredLevel"] = 2,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          244808,
+        },
+      },
+      ["zoneOrSort"] = 85,
     },
     [984] = {
       ["areaId"] = 148,
@@ -222536,6 +234154,350 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 148,
+    },
+    [98404] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          272054,
+        },
+      },
+      ["id"] = 98404,
+      ["name"] = "The Great Windborne Cat Spirit",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            280502,
+          },
+          {
+            280679,
+          },
+          {
+            280680,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Recover the Relic of the Fang, Relic of the Claw, and Relic of the Silent Shadow from the Stormrage Barrow Den, and return them to the Avatar of Saeyleenan.",
+      },
+      ["questLevel"] = 20,
+      ["requiredLevel"] = 20,
+      ["requiredRaces"] = 12884901888,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 609,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -263,
+      ["startedBy"] = {
+        ["npcs"] = {
+          272054,
+        },
+      },
+      ["zoneOrSort"] = -263,
+    },
+    [98405] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          11957,
+        },
+      },
+      ["id"] = 98405,
+      ["name"] = "The Great Cat Spirit",
+      ["objectivesText"] = {
+        "Seek out the Great Cat Spirit in southern part Moonglade and learn what it has to share with you about the nature of the cat.",
+      },
+      ["questLevel"] = 20,
+      ["requiredClasses"] = 1024,
+      ["requiredLevel"] = 20,
+      ["requiredRaces"] = 32,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 609,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -263,
+      ["startedBy"] = {
+        ["npcs"] = {
+          11802,
+        },
+      },
+      ["zoneOrSort"] = -263,
+    },
+    [98407] = {
+      ["areaId"] = 44,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1070,
+        },
+      },
+      ["id"] = 98407,
+      ["name"] = "Show of Force",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            280911,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Collect 5 Spiked Collars from Gnoll Thrashers for Deputy Feldon near Lakeshire.",
+      },
+      ["questLevel"] = 17,
+      ["requiredLevel"] = 11,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 72,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          1070,
+        },
+      },
+      ["zoneOrSort"] = 44,
+    },
+    [98423] = {
+      ["areaId"] = 1,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          2784,
+        },
+      },
+      ["id"] = 98423,
+      ["name"] = "The Treaty of Understanding",
+      ["objectivesText"] = {
+        "Deliver the Treaty of Understanding to Magni Bronzebeard in Ironforge.",
+      },
+      ["questLevel"] = 16,
+      ["requiredLevel"] = 9,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 47,
+          },
+          {
+            ["amount"] = 100,
+            ["factionId"] = 54,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 281030,
+      ["startedBy"] = {
+        ["items"] = {
+          281030,
+        },
+      },
+      ["zoneOrSort"] = 1,
+    },
+    [98424] = {
+      ["areaId"] = 215,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          2988,
+        },
+      },
+      ["id"] = 98424,
+      ["name"] = "Fizsprocket's Notes",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            281035,
+          },
+          {
+            281036,
+          },
+          {
+            281037,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Collect the rest of Supervisor Fizsprocket's pages inside The Venture Co. Mine and bring them to Morin Cloudstalker near Bloodhoof Village.",
+      },
+      ["questLevel"] = 10,
+      ["requiredLevel"] = 5,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 81,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["items"] = {
+          281031,
+        },
+      },
+      ["zoneOrSort"] = 215,
+    },
+    [98427] = {
+      ["areaId"] = 215,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          2988,
+        },
+      },
+      ["id"] = 98427,
+      ["name"] = "Ceasing Operations",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            281048,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Bring the Clearcutter Key to Morin Cloudstalker outside Bloodhoof Village.",
+      },
+      ["preQuestSingle"] = {
+        98424,
+      },
+      ["questLevel"] = 12,
+      ["requiredLevel"] = 5,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 281059,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 282285,
+          },
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 150,
+            ["factionId"] = 81,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          2988,
+        },
+      },
+      ["zoneOrSort"] = 215,
+    },
+    [98435] = {
+      ["areaId"] = 215,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          5769,
+        },
+      },
+      ["id"] = 98435,
+      ["name"] = "Thunderhorn's Report",
+      ["objectivesText"] = {
+        "Bring Thunderhorn's Report to Arch Druid Hamuul Runetotem in Thunder Bluff.",
+      },
+      ["questLevel"] = 10,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 3443,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 4961,
+          },
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 10,
+            ["factionId"] = 81,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 1,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 281139,
+      ["startedBy"] = {
+        ["npcs"] = {
+          2948,
+        },
+      },
+      ["zoneOrSort"] = 215,
     },
     [985] = {
       ["areaId"] = 148,
@@ -222637,6 +234599,95 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 16593,
     },
+    [98574] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          837,
+        },
+      },
+      ["id"] = 98574,
+      ["name"] = "Hallowed Memorandum",
+      ["objectivesText"] = {
+        "Read the Hallowed Memorandum and speak to Branstock Khalder in Anvilmar.",
+      },
+      ["preQuestGroup"] = {
+        179,
+      },
+      ["questLevel"] = 1,
+      ["requiredClasses"] = 16,
+      ["requiredLevel"] = 1,
+      ["requiredRaces"] = 64,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 54,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -262,
+      ["sourceItemId"] = 282338,
+      ["startedBy"] = {
+        ["npcs"] = {
+          658,
+        },
+      },
+      ["zoneOrSort"] = -262,
+    },
+    [98581] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          257446,
+        },
+      },
+      ["id"] = 98581,
+      ["name"] = "Archaic Rune",
+      ["objectivesText"] = {
+        "Read the Archaic Rune and speak to Teo Hammerstorm in Anvilmar.",
+      },
+      ["preQuestGroup"] = {
+        179,
+      },
+      ["preQuestSingle"] = {
+        179,
+      },
+      ["questLevel"] = 1,
+      ["requiredClasses"] = 64,
+      ["requiredLevel"] = 1,
+      ["requiredRaces"] = 4,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 47,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -82,
+      ["sourceItemId"] = 282400,
+      ["startedBy"] = {
+        ["npcs"] = {
+          658,
+        },
+      },
+      ["zoneOrSort"] = -82,
+    },
     [986] = {
       ["areaId"] = 148,
       ["finishedBy"] = {
@@ -222685,6 +234736,185 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 148,
+    },
+    [98601] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          244808,
+        },
+      },
+      ["id"] = 98601,
+      ["name"] = "A Difficult Path",
+      ["objectivesText"] = {
+        "Read the Consecrated Scroll and speak to Aramis Hammerhand in the church in Deathknell.",
+      },
+      ["preQuestSingle"] = {
+        364,
+      },
+      ["questLevel"] = 1,
+      ["requiredClasses"] = 2,
+      ["requiredLevel"] = 1,
+      ["requiredRaces"] = 16,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -141,
+      ["sourceItemId"] = 282423,
+      ["startedBy"] = {
+        ["npcs"] = {
+          1569,
+        },
+      },
+      ["zoneOrSort"] = -141,
+    },
+    [98738] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          11802,
+        },
+      },
+      ["id"] = 98738,
+      ["name"] = "Blessings of the Great Windborne Cat Spirit",
+      ["preQuestSingle"] = {
+        98404,
+      },
+      ["questLevel"] = 20,
+      ["requiredLevel"] = 20,
+      ["requiredRaces"] = 12884901888,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 609,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -263,
+      ["startedBy"] = {
+        ["npcs"] = {
+          272054,
+        },
+      },
+      ["zoneOrSort"] = -263,
+    },
+    [98739] = {
+      ["finishedBy"] = {
+        ["npcs"] = {
+          11802,
+        },
+      },
+      ["id"] = 98739,
+      ["name"] = "Blessings of the Great Cat Spirit",
+      ["objectivesText"] = {
+        "Speak to Dendrite.",
+      },
+      ["preQuestSingle"] = {
+        98342,
+      },
+      ["questLevel"] = 20,
+      ["requiredClasses"] = 1024,
+      ["requiredLevel"] = 20,
+      ["requiredRaces"] = 32,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 50,
+            ["factionId"] = 609,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 3,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sortId"] = -263,
+      ["startedBy"] = {
+        ["npcs"] = {
+          11957,
+        },
+      },
+      ["zoneOrSort"] = -263,
+    },
+    [98823] = {
+      ["areaId"] = 16732,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          259118,
+        },
+      },
+      ["id"] = 98823,
+      ["name"] = "Earthen Echo",
+      ["objectivesText"] = {
+        "Bring the Titan Relic to Muln Earthfury at the Skywatcher Plateau in northwest Mulgore.",
+      },
+      ["preQuestSingle"] = {
+        95664,
+      },
+      ["questLevel"] = 31,
+      ["requiredLevel"] = 24,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["money"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 271766,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 271767,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 271719,
+          },
+        },
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+        ["xp"] = {
+          ["difficulty"] = 6,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 287958,
+      ["startedBy"] = {
+        ["npcs"] = {
+          9087,
+        },
+      },
+      ["zoneOrSort"] = 16732,
     },
     [99] = {
       ["areaId"] = 130,
@@ -222799,6 +235029,402 @@ ForeverQuestsDB = {
       },
       ["zoneOrSort"] = 331,
     },
+    [99048] = {
+      ["areaId"] = 14,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          275657,
+        },
+      },
+      ["id"] = 99048,
+      ["name"] = "A Missing Hand",
+      ["nextQuestInChain"] = 99049,
+      ["objectivesText"] = {
+        "Find Heglan Shadeeye north of Tiragarde Keep.",
+      },
+      ["questLevel"] = 11,
+      ["requiredLevel"] = 9,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 25,
+            ["factionId"] = 76,
+          },
+          {
+            ["amount"] = 25,
+            ["factionId"] = 530,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 1,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          3142,
+        },
+      },
+      ["zoneOrSort"] = 14,
+    },
+    [99049] = {
+      ["areaId"] = 14,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3142,
+        },
+      },
+      ["id"] = 99049,
+      ["name"] = "Threat from Below",
+      ["nextQuestInChain"] = 99051,
+      ["objectives"] = {
+        ["items"] = {
+          {
+            286012,
+          },
+          {
+            286011,
+          },
+          {
+            286010,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Find signs of what attacked Heglan Shadeeye.",
+      },
+      ["preQuestGroup"] = {
+        99048,
+      },
+      ["questLevel"] = 11,
+      ["requiredLevel"] = 9,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 25,
+            ["factionId"] = 76,
+          },
+          {
+            ["amount"] = 25,
+            ["factionId"] = 530,
+          },
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          275657,
+        },
+      },
+      ["zoneOrSort"] = 14,
+    },
+    [99051] = {
+      ["areaId"] = 14,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3142,
+        },
+      },
+      ["id"] = 99051,
+      ["name"] = "Threat from Below",
+      ["nextQuestInChain"] = 99052,
+      ["objectives"] = {
+        ["items"] = {
+          {
+            286008,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Collect 9 Naga Spinefins.",
+      },
+      ["preQuestGroup"] = {
+        99049,
+      },
+      ["questLevel"] = 11,
+      ["requiredLevel"] = 9,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 25,
+            ["factionId"] = 76,
+          },
+          {
+            ["amount"] = 25,
+            ["factionId"] = 530,
+          },
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          3142,
+        },
+      },
+      ["zoneOrSort"] = 14,
+    },
+    [99052] = {
+      ["areaId"] = 14,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3142,
+        },
+      },
+      ["id"] = 99052,
+      ["name"] = "Threat from Below",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            286009,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Kill the sea giant along Durotar's north coast and bring back proof of your accomplishment.",
+      },
+      ["preQuestGroup"] = {
+        99051,
+      },
+      ["questLevel"] = 12,
+      ["requiredLevel"] = 10,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 286730,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 286731,
+          },
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 76,
+          },
+          {
+            ["amount"] = 50,
+            ["factionId"] = 530,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          3142,
+        },
+      },
+      ["zoneOrSort"] = 14,
+    },
+    [99079] = {
+      ["areaId"] = 215,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          275789,
+        },
+      },
+      ["id"] = 99079,
+      ["name"] = "Longwalker Malah",
+      ["objectivesText"] = {
+        "Find Longwalker Malah Longwind east of Bloodhoof Village, near the edge of Mulgore.",
+      },
+      ["questLevel"] = 9,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 10,
+            ["factionId"] = 81,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 1,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          3222,
+        },
+      },
+      ["zoneOrSort"] = 215,
+    },
+    [99080] = {
+      ["areaId"] = 215,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          2993,
+        },
+      },
+      ["id"] = 99080,
+      ["name"] = "Drive Them Out",
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            2967,
+          },
+          {
+            2968,
+          },
+        },
+        ["items"] = {
+          {
+            286075,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Kill 6 Galak Centaurs, 4 Galak Outrunners, and bring the head of Herak the Pillager to Baine Bloodhoof.",
+      },
+      ["preQuestSingle"] = {
+        99101,
+      },
+      ["questLevel"] = 9,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 81,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          2993,
+        },
+      },
+      ["zoneOrSort"] = 215,
+    },
+    [99081] = {
+      ["areaId"] = 215,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3222,
+        },
+      },
+      ["id"] = 99081,
+      ["name"] = "Grim Tidings",
+      ["objectivesText"] = {
+        "Bring Longwalker Malah's Report to Brave Wildrunner in Bloodhoof Village.",
+      },
+      ["preQuestSingle"] = {
+        99079,
+      },
+      ["questLevel"] = 9,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 10,
+            ["factionId"] = 81,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 1,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 286104,
+      ["startedBy"] = {
+        ["npcs"] = {
+          275789,
+        },
+      },
+      ["zoneOrSort"] = 215,
+    },
+    [99082] = {
+      ["areaId"] = 215,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          3057,
+        },
+      },
+      ["id"] = 99082,
+      ["name"] = "The High Chieftain",
+      ["objectivesText"] = {
+        "Seek audience with High Chieftain Cairne Bloodhoof in Thunder Bluff.",
+      },
+      ["preQuestSingle"] = {
+        99080,
+      },
+      ["questLevel"] = 9,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 286740,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 286741,
+          },
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 10,
+            ["factionId"] = 81,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 1,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          2993,
+        },
+      },
+      ["zoneOrSort"] = 215,
+    },
     [991] = {
       ["areaId"] = 331,
       ["finishedBy"] = {
@@ -222844,6 +235470,826 @@ ForeverQuestsDB = {
         },
       },
       ["zoneOrSort"] = 331,
+    },
+    [99101] = {
+      ["areaId"] = 215,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          2993,
+        },
+      },
+      ["id"] = 99101,
+      ["name"] = "Our Ancient Enemy",
+      ["objectivesText"] = {
+        "Bring Longwalker Malah's Report to Baine Bloodhoof.",
+      },
+      ["preQuestSingle"] = {
+        99081,
+      },
+      ["questLevel"] = 9,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 10,
+            ["factionId"] = 81,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 1,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 286104,
+      ["startedBy"] = {
+        ["npcs"] = {
+          3222,
+        },
+      },
+      ["zoneOrSort"] = 215,
+    },
+    [99127] = {
+      ["areaId"] = 12,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          383,
+        },
+      },
+      ["id"] = 99127,
+      ["name"] = "A Net Disaster",
+      ["nextQuestInChain"] = 99128,
+      ["objectives"] = {
+        ["items"] = {
+          {
+            286205,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Check the fishing traps in Crystal Lake.",
+      },
+      ["questLevel"] = 7,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          383,
+        },
+      },
+      ["zoneOrSort"] = 12,
+    },
+    [99128] = {
+      ["areaId"] = 12,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          383,
+        },
+      },
+      ["id"] = 99128,
+      ["name"] = "Slimy Menace",
+      ["nextQuestInChain"] = 99129,
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            735,
+          },
+          {
+            285,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Kill the murlocs at Crystal Lake.",
+      },
+      ["preQuestGroup"] = {
+        99127,
+      },
+      ["questLevel"] = 7,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          383,
+        },
+      },
+      ["zoneOrSort"] = 12,
+    },
+    [99129] = {
+      ["areaId"] = 12,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          241,
+        },
+      },
+      ["id"] = 99129,
+      ["name"] = "A Man About a Murloc",
+      ["nextQuestInChain"] = 99130,
+      ["objectivesText"] = {
+        "Speak with Remy \"Two Times\" about Jason's murloc problems.",
+      },
+      ["preQuestGroup"] = {
+        99128,
+      },
+      ["questLevel"] = 7,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 1,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          383,
+        },
+      },
+      ["zoneOrSort"] = 12,
+    },
+    [99130] = {
+      ["areaId"] = 12,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          241,
+        },
+      },
+      ["id"] = 99130,
+      ["name"] = "An Enticing Offer",
+      ["nextQuestInChain"] = 99131,
+      ["objectives"] = {
+        ["items"] = {
+          {
+            286214,
+          },
+          {
+            286215,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Collect ingredients for murloc bait.",
+      },
+      ["preQuestGroup"] = {
+        99129,
+      },
+      ["questLevel"] = 7,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 286733,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          241,
+        },
+      },
+      ["zoneOrSort"] = 12,
+    },
+    [99131] = {
+      ["areaId"] = 12,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          383,
+        },
+      },
+      ["id"] = 99131,
+      ["name"] = "Baited for Success",
+      ["objectivesText"] = {
+        "Return to Jason Mathers.",
+      },
+      ["preQuestGroup"] = {
+        99130,
+      },
+      ["questLevel"] = 7,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          241,
+        },
+      },
+      ["zoneOrSort"] = 12,
+    },
+    [99134] = {
+      ["areaId"] = 85,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1515,
+        },
+      },
+      ["id"] = 99134,
+      ["name"] = "Discipline",
+      ["objectivesText"] = {
+        "Punish 5 Deathguards for Executor Zygand.",
+      },
+      ["preQuestSingle"] = {
+        383,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 286176,
+      ["startedBy"] = {
+        ["npcs"] = {
+          1515,
+        },
+      },
+      ["zoneOrSort"] = 85,
+    },
+    [99141] = {
+      ["areaId"] = 85,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1515,
+        },
+      },
+      ["id"] = 99141,
+      ["name"] = "Patience",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            286200,
+          },
+          {
+            286201,
+          },
+          {
+            286202,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Obtain reports from Deathguard Dillinger, Deathguard Kristof, and Gordo for Executor Zygand.",
+      },
+      ["preQuestSingle"] = {
+        383,
+      },
+      ["questLevel"] = 6,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 4,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          1515,
+        },
+      },
+      ["zoneOrSort"] = 85,
+    },
+    [99142] = {
+      ["areaId"] = 85,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          10665,
+        },
+      },
+      ["id"] = 99142,
+      ["name"] = "Tomb Weed",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            286204,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Collect 5 Tomb Weed and deliver them back to Junior Apothecary Holland.",
+      },
+      ["questLevel"] = 11,
+      ["requiredLevel"] = 5,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          10665,
+        },
+      },
+      ["zoneOrSort"] = 85,
+    },
+    [99143] = {
+      ["areaId"] = 12,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1651,
+        },
+      },
+      ["id"] = 99143,
+      ["name"] = "Bottles and Baubles",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            286209,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Collect 6 pieces of shiny junk from the nearby Murloc camp.",
+      },
+      ["questLevel"] = 7,
+      ["requiredLevel"] = 4,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 286732,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          1651,
+        },
+      },
+      ["zoneOrSort"] = 12,
+    },
+    [99144] = {
+      ["areaId"] = 85,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          246152,
+        },
+      },
+      ["id"] = 99144,
+      ["name"] = "Seeking Refuge",
+      ["objectivesText"] = {
+        "Help Bareth Dawnstone escape Crusader's Outpost, and report his safety to Shari Stilwell in Brill.",
+      },
+      ["questLevel"] = 7,
+      ["requiredLevel"] = 5,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["money"] = "tdb",
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["money"] = {
+          ["bonus"] = 0,
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+        ["reputation"] = {
+          {
+            ["amount"] = 100,
+            ["factionId"] = 68,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          275954,
+        },
+      },
+      ["zoneOrSort"] = 85,
+    },
+    [99156] = {
+      ["areaId"] = 85,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1495,
+        },
+      },
+      ["id"] = 99156,
+      ["name"] = "Rear Guard Patrol",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            286326,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Bring Riptear's Heart to Deathguard Linnea.",
+      },
+      ["preQuestSingle"] = {
+        356,
+      },
+      ["questLevel"] = 13,
+      ["requiredLevel"] = 6,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["choice"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["choice"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 286742,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 286743,
+          },
+          {
+            ["amount"] = 1,
+            ["itemId"] = 286744,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          1495,
+        },
+      },
+      ["zoneOrSort"] = 85,
+    },
+    [99158] = {
+      ["areaId"] = 1,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1253,
+        },
+      },
+      ["id"] = 99158,
+      ["name"] = "Dawn in the Mountains",
+      ["nextQuestInChain"] = 99159,
+      ["objectivesText"] = {
+        "Bring the crate of candles to Father Gavin at Misty Pine Refuge.",
+      },
+      ["questLevel"] = 8,
+      ["requiredLevel"] = 5,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 1,
+          ["multiplier"] = 1,
+        },
+      },
+      ["sourceItemId"] = 286355,
+      ["startedBy"] = {
+        ["npcs"] = {
+          1226,
+        },
+      },
+      ["zoneOrSort"] = 1,
+    },
+    [99159] = {
+      ["areaId"] = 1,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1253,
+        },
+      },
+      ["id"] = 99159,
+      ["name"] = "Finding Warmth",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            286339,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Collect 14 pieces of firewood.",
+      },
+      ["questLevel"] = 8,
+      ["requiredLevel"] = 5,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          1253,
+        },
+      },
+      ["zoneOrSort"] = 1,
+    },
+    [99160] = {
+      ["areaId"] = 1,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1253,
+        },
+      },
+      ["id"] = 99160,
+      ["name"] = "Rime's Wrath",
+      ["nextQuestInChain"] = 99161,
+      ["objectives"] = {
+        ["creatures"] = {
+          {
+            276003,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Destroy 10 minor ice elementals.",
+      },
+      ["preQuestGroup"] = {
+        99159,
+      },
+      ["questLevel"] = 8,
+      ["requiredLevel"] = 5,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          1253,
+        },
+      },
+      ["zoneOrSort"] = 1,
+    },
+    [99161] = {
+      ["areaId"] = 1,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1253,
+        },
+      },
+      ["id"] = 99161,
+      ["name"] = "Rime's Wrath",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            286325,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Kill Avala and retrieve its core.",
+      },
+      ["preQuestGroup"] = {
+        99160,
+      },
+      ["questLevel"] = 8,
+      ["requiredLevel"] = 5,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["items"] = "tdb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["items"] = {
+          {
+            ["amount"] = 1,
+            ["itemId"] = 286737,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          1253,
+        },
+      },
+      ["zoneOrSort"] = 1,
+    },
+    [99162] = {
+      ["areaId"] = 1,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          1253,
+        },
+      },
+      ["id"] = 99162,
+      ["name"] = "Treacherous Cold",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            286360,
+          },
+          {
+            286359,
+          },
+          {
+            286358,
+          },
+        },
+      },
+      ["objectivesText"] = {
+        "Collect the rifles of fallen mountaineers.",
+      },
+      ["preQuestGroup"] = {
+        99159,
+      },
+      ["questLevel"] = 8,
+      ["requiredLevel"] = 5,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["xp"] = {
+          ["difficulty"] = 5,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          1253,
+        },
+      },
+      ["zoneOrSort"] = 1,
+    },
+    [99191] = {
+      ["areaId"] = 36,
+      ["id"] = 99191,
+      ["name"] = "A Donation of Wool",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            2592,
+          },
+        },
+      },
+      ["questLevel"] = 60,
+      ["requiredLevel"] = 12,
+      ["requiredRaces"] = 4294967373,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 150,
+            ["factionId"] = 2779,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 1,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          276170,
+        },
+      },
+      ["zoneOrSort"] = 36,
+    },
+    [99196] = {
+      ["areaId"] = 215,
+      ["finishedBy"] = {
+        ["npcs"] = {
+          276171,
+        },
+      },
+      ["id"] = 99196,
+      ["name"] = "A Donation of Wool",
+      ["objectives"] = {
+        ["items"] = {
+          {
+            2592,
+          },
+        },
+      },
+      ["questLevel"] = 60,
+      ["requiredLevel"] = 12,
+      ["requiredRaces"] = 8589934770,
+      ["rewardSources"] = {
+        ["reputation"] = "norgannondb",
+        ["xp"] = "tdb",
+      },
+      ["rewards"] = {
+        ["reputation"] = {
+          {
+            ["amount"] = 150,
+            ["factionId"] = 2778,
+          },
+        },
+        ["xp"] = {
+          ["difficulty"] = 1,
+          ["multiplier"] = 1,
+        },
+      },
+      ["startedBy"] = {
+        ["npcs"] = {
+          276171,
+        },
+      },
+      ["zoneOrSort"] = 215,
     },
     [992] = {
       ["areaId"] = 440,
@@ -223229,11 +236675,11 @@ ForeverQuestsDB = {
       ["zoneOrSort"] = 361,
     },
   },
-  ["version"] = "1.2.0",
+  ["version"] = "1.3.0",
   ["zones"] = {
     {
       ["areaId"] = 1,
-      ["questCount"] = 32,
+      ["questCount"] = 49,
       ["uiMapId"] = 1426,
     },
     {
@@ -223268,12 +236714,12 @@ ForeverQuestsDB = {
     },
     {
       ["areaId"] = 12,
-      ["questCount"] = 36,
+      ["questCount"] = 55,
       ["uiMapId"] = 1429,
     },
     {
       ["areaId"] = 14,
-      ["questCount"] = 31,
+      ["questCount"] = 36,
       ["uiMapId"] = 1411,
     },
     {
@@ -223288,7 +236734,7 @@ ForeverQuestsDB = {
     },
     {
       ["areaId"] = 17,
-      ["questCount"] = 98,
+      ["questCount"] = 108,
       ["uiMapId"] = 1413,
     },
     {
@@ -223322,7 +236768,7 @@ ForeverQuestsDB = {
     },
     {
       ["areaId"] = 36,
-      ["questCount"] = 14,
+      ["questCount"] = 15,
       ["uiMapId"] = 1416,
     },
     {
@@ -223332,12 +236778,12 @@ ForeverQuestsDB = {
     },
     {
       ["areaId"] = 40,
-      ["questCount"] = 35,
+      ["questCount"] = 41,
       ["uiMapId"] = 1436,
     },
     {
       ["areaId"] = 44,
-      ["questCount"] = 36,
+      ["questCount"] = 38,
       ["uiMapId"] = 1433,
     },
     {
@@ -223362,12 +236808,12 @@ ForeverQuestsDB = {
     },
     {
       ["areaId"] = 85,
-      ["questCount"] = 35,
+      ["questCount"] = 47,
       ["uiMapId"] = 1420,
     },
     {
       ["areaId"] = 130,
-      ["questCount"] = 42,
+      ["questCount"] = 45,
       ["uiMapId"] = 1421,
     },
     {
@@ -223412,7 +236858,7 @@ ForeverQuestsDB = {
     },
     {
       ["areaId"] = 215,
-      ["questCount"] = 25,
+      ["questCount"] = 37,
       ["uiMapId"] = 1412,
     },
     {
@@ -223536,7 +236982,7 @@ ForeverQuestsDB = {
     },
     {
       ["areaId"] = 1497,
-      ["questCount"] = 27,
+      ["questCount"] = 29,
       ["uiMapId"] = 1458,
     },
     {
@@ -223546,7 +236992,7 @@ ForeverQuestsDB = {
     },
     {
       ["areaId"] = 1519,
-      ["questCount"] = 77,
+      ["questCount"] = 79,
       ["uiMapId"] = 1453,
     },
     {
@@ -223571,12 +237017,12 @@ ForeverQuestsDB = {
     },
     {
       ["areaId"] = 1637,
-      ["questCount"] = 85,
+      ["questCount"] = 91,
       ["uiMapId"] = 1454,
     },
     {
       ["areaId"] = 1638,
-      ["questCount"] = 35,
+      ["questCount"] = 36,
       ["uiMapId"] = 1456,
     },
     {
@@ -223688,6 +237134,23 @@ ForeverQuestsDB = {
       ["areaId"] = 16593,
       ["questCount"] = 109,
       ["uiMapId"] = 2521,
+    },
+    {
+      ["areaId"] = 16611,
+      ["questCount"] = 9,
+    },
+    {
+      ["areaId"] = 16732,
+      ["questCount"] = 2,
+    },
+    {
+      ["areaId"] = 16919,
+      ["questCount"] = 4,
+    },
+    {
+      ["areaId"] = 77,
+      ["questCount"] = 1,
+      ["uiMapId"] = 1426,
     },
   },
 }

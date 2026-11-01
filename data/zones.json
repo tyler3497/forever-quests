@@ -1,7 +1,7 @@
 [
   {
     "areaId": 1,
-    "questCount": 32,
+    "questCount": 49,
     "uiMapId": 1426
   },
   {
@@ -36,12 +36,12 @@
   },
   {
     "areaId": 12,
-    "questCount": 36,
+    "questCount": 55,
     "uiMapId": 1429
   },
   {
     "areaId": 14,
-    "questCount": 31,
+    "questCount": 36,
     "uiMapId": 1411
   },
   {
@@ -56,7 +56,7 @@
   },
   {
     "areaId": 17,
-    "questCount": 98,
+    "questCount": 108,
     "uiMapId": 1413
   },
   {
@@ -90,7 +90,7 @@
   },
   {
     "areaId": 36,
-    "questCount": 14,
+    "questCount": 15,
     "uiMapId": 1416
   },
   {
@@ -100,12 +100,12 @@
   },
   {
     "areaId": 40,
-    "questCount": 35,
+    "questCount": 41,
     "uiMapId": 1436
   },
   {
     "areaId": 44,
-    "questCount": 36,
+    "questCount": 38,
     "uiMapId": 1433
   },
   {
@@ -130,12 +130,12 @@
   },
   {
     "areaId": 85,
-    "questCount": 35,
+    "questCount": 47,
     "uiMapId": 1420
   },
   {
     "areaId": 130,
-    "questCount": 42,
+    "questCount": 45,
     "uiMapId": 1421
   },
   {
@@ -180,7 +180,7 @@
   },
   {
     "areaId": 215,
-    "questCount": 25,
+    "questCount": 37,
     "uiMapId": 1412
   },
   {
@@ -304,7 +304,7 @@
   },
   {
     "areaId": 1497,
-    "questCount": 27,
+    "questCount": 29,
     "uiMapId": 1458
   },
   {
@@ -314,7 +314,7 @@
   },
   {
     "areaId": 1519,
-    "questCount": 77,
+    "questCount": 79,
     "uiMapId": 1453
   },
   {
@@ -339,12 +339,12 @@
   },
   {
     "areaId": 1637,
-    "questCount": 85,
+    "questCount": 91,
     "uiMapId": 1454
   },
   {
     "areaId": 1638,
-    "questCount": 35,
+    "questCount": 36,
     "uiMapId": 1456
   },
   {
@@ -456,5 +456,22 @@
     "areaId": 16593,
     "questCount": 109,
     "uiMapId": 2521
+  },
+  {
+    "areaId": 16611,
+    "questCount": 9
+  },
+  {
+    "areaId": 16732,
+    "questCount": 2
+  },
+  {
+    "areaId": 16919,
+    "questCount": 4
+  },
+  {
+    "areaId": 77,
+    "questCount": 1,
+    "uiMapId": 1426
   }
 ]
