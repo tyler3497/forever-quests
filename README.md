@@ -6,13 +6,13 @@ other. The companion app (Tyler's WoW Tools) downloads updates from here.
 
 ## Status
 
-- **Version 1.1.0** — 4,244 quests across 91 zones, with rewards merged
-  (see below).
+- **Version 1.2.0** — 4,353 quests across 92 zones, including the 109
+  Zephras Isle quests (see below).
 - **Not yet verified against the live Forever client.** The source data is
   QuestieDB's Forever dataset plus TrinityCore's Forever world database
-  (see Provenance), but no in-game cross-check has run yet — Forever
-  launches November 4, 2026. Treat quest contents as curated, not as
-  confirmed live data, until that check happens.
+  and NorgannonDB (see Provenance), but no in-game cross-check has run
+  yet — Forever launches November 4, 2026. Treat quest contents as
+  curated, not as confirmed live data, until that check happens.
 
 ## What is in here
 
@@ -53,12 +53,12 @@ other. The companion app (Tyler's WoW Tools) downloads updates from here.
 | `objectives` | `{ creatures, objects, items, reputation, killCredits, spells }` — raw rows from the source |
 | `triggerEnd` | `{ text, zones: [{ zoneId, coords: [[x, y], …] }] }` for explore-style objectives |
 | `extraObjectives` | Hidden-objective rows, raw from the source |
-| `rewards.reputation` | `[{ factionId, amount }]` — from QuestieDB |
-| `rewards.items` | `[{ itemId, amount }]` fixed item rewards — from the TDB |
+| `rewards.reputation` | `[{ factionId, amount }]` — from QuestieDB, or NorgannonDB for Zephras quests |
+| `rewards.items` | `[{ itemId, amount }]` fixed item rewards — from the TDB (NorgannonDB fallback only when the TDB has neither fixed nor choice items) |
 | `rewards.choice` | `[{ itemId, amount }]` pick-one item rewards — from the TDB |
 | `rewards.xp` | `{ difficulty, multiplier }` — from the TDB (see below) |
 | `rewards.money` | `{ difficulty, multiplier, bonus }` — from the TDB (see below) |
-| `rewardSources` | Which source each reward category came from (`questiedb` / `tdb`) |
+| `rewardSources` | Which source each reward category came from (`questiedb` / `tdb` / `norgannondb`) |
 
 XP and money are stored the way the TDB stores them: a difficulty column
 plus a multiplier, resolved to final numbers through the client's QuestXP
@@ -140,6 +140,15 @@ built from TrinityCore TDB 1210.26091 plus the branch's updates and custom
 files, with the world converted from VMaNGOS plus Zephras Isle, other
 Forever content, and packet-sniff imports. Only the item, money, and XP
 columns of its `quest_template` are used; reputation stays QuestieDB-only.
+
+Zephras Isle quests (v1.2.0) come from
+[NorgannonDB](https://github.com/zmarotrix/NorgannonDB) (GPL-3.0,
+snapshot 2026-10-20): name, level, starters, finishers, objectives,
+prerequisites, chains, races, classes, and reputation rewards, with TDB
+item/money/XP rewards merged the same way as v1.1.0 and TDB
+`quest_template_addon` rows filling chain gaps (71 previous-quest links).
+The import list is `tools/zephras_ids.json`; the importer is
+`tools/import_zephras.py`.
 
 This repo is licensed under the **GNU General Public License v3.0**
 (see `LICENSE.md`), matching QuestieDB's license for this derived data.

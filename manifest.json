@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "dataVersion": "1.1.0",
-  "generatedAt": "2026-11-01T20:25:58Z",
+  "dataVersion": "1.2.0",
+  "generatedAt": "2026-11-01T21:08:42Z",
   "sources": [
     {
       "repo": "Questie/QuestieDB",
@@ -28,22 +28,30 @@
         "money rewards",
         "XP rewards"
       ],
-      "note": "Reputation columns intentionally unused; reputation stays QuestieDB-only."
+      "note": "Reputation columns intentionally unused; reputation stays QuestieDB-only (NorgannonDB for Zephras quests)."
+    },
+    {
+      "repo": "zmarotrix/NorgannonDB",
+      "snapshot": "2026-10-20",
+      "schema": "1.4",
+      "file": "data/quests.lua",
+      "usedFor": [
+        "Zephras Isle quests (109): names, levels, starters, finishers, objectives, prerequisites, chains, reputation rewards"
+      ]
     }
   ],
-  "note": "QuestieDB Forever dataset + TDB rewards; not yet verified against the live Forever client (launches 2026-11-04).",
-  "questCount": 4244,
-  "zoneCount": 91,
-  "questsWithArea": 3260,
+  "note": "QuestieDB Forever dataset + TDB rewards + NorgannonDB Zephras Isle quests; not yet verified against the live Forever client (launches 2026-11-04).",
+  "questCount": 4353,
+  "zoneCount": 92,
+  "questsWithArea": 3369,
   "questsWithSort": 983,
   "questsWithoutZoneOrSort": 1,
-  "questsWithTdbRewards": 4065,
-  "questsWithItems": 1291,
-  "questsWithChoice": 549,
-  "questsWithXp": 3609,
-  "questsWithMoney": 2430,
-  "tdbRowsNotImported": 44557,
-  "tdbOnlyGe90000": 2510,
+  "questsWithTdbRewards": 4172,
+  "questsWithItems": 1306,
+  "questsWithChoice": 572,
+  "questsWithXp": 3716,
+  "questsWithMoney": 2461,
+  "zephrasQuests": 109,
   "unmappedAreaIds": [
     {
       "areaId": 25,
@@ -57,18 +65,18 @@
   "files": [
     {
       "path": "data/quests.json",
-      "bytes": 2351802,
-      "sha256": "aa03c97dc3a724a673dd87933423d874f8042b00b6d6279d5e84ab17f7bdd44c"
+      "bytes": 2412858,
+      "sha256": "347f124ef0eda0e6fd3bf3d0a06597d58ebac8eea3aeb7daa88616163acdb66c"
     },
     {
       "path": "data/zones.json",
-      "bytes": 4116,
-      "sha256": "d8f72b1d2c97170e0b16f0d77c0220557a1335ef9688a62a1a362d00f400721a"
+      "bytes": 6361,
+      "sha256": "0df43abfe9a2c123f27c6946cd11077e789ed4aec0ce19ece7f473e2c0a89ae6"
     },
     {
       "path": "data/QuestDB.lua",
-      "bytes": 4807921,
-      "sha256": "a9503f0ad7e59eb0c9da2f044228a4ee98c0ea700198d4646e48fc0bfc93837c"
+      "bytes": 4936042,
+      "sha256": "a74e4337ae6bd1b4a84868962d9e78985f97eaa0e37e4e00abcaaeac36b106b3"
     }
   ]
 }
