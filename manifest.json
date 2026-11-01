@@ -1,23 +1,49 @@
 {
   "formatVersion": 1,
-  "dataVersion": "1.0.0",
-  "generatedAt": "2026-11-01T19:46:02Z",
-  "source": {
-    "repo": "Questie/QuestieDB",
-    "commit": "8f55e69de02e8a67229c4a54575f899244359cb8",
-    "file": "data/Forever/foreverQuestDB.lua",
-    "fileSha256": "621d4a1670232c047e7d171d8f1fdbd31581458935ee59dd70836016838dc942",
-    "zoneMapping": [
-      "support/Forever/Zones/areaIdToUiMapId.lua",
-      "support/Zones/areaIdToUiMapId.lua"
-    ],
-    "note": "QuestieDB Forever dataset; not yet verified against the live Forever client (launches 2026-11-04)."
-  },
+  "dataVersion": "1.1.0",
+  "generatedAt": "2026-11-01T20:25:58Z",
+  "sources": [
+    {
+      "repo": "Questie/QuestieDB",
+      "commit": "8f55e69de02e8a67229c4a54575f899244359cb8",
+      "file": "data/Forever/foreverQuestDB.lua",
+      "fileSha256": "621d4a1670232c047e7d171d8f1fdbd31581458935ee59dd70836016838dc942",
+      "zoneMapping": [
+        "support/Forever/Zones/areaIdToUiMapId.lua",
+        "support/Zones/areaIdToUiMapId.lua"
+      ],
+      "usedFor": [
+        "quest data",
+        "reputation rewards"
+      ]
+    },
+    {
+      "repo": "advocaite/TrinityCore",
+      "branch": "forever",
+      "release": "forever-tdb-2026-10-14",
+      "file": "TDB_full_world_forever_2026_10_14.sql",
+      "fileSha256": "373cdca7963927d4d67933032b4b858a811eae0af960d4de4ff19833a88d4f41",
+      "usedFor": [
+        "item rewards",
+        "money rewards",
+        "XP rewards"
+      ],
+      "note": "Reputation columns intentionally unused; reputation stays QuestieDB-only."
+    }
+  ],
+  "note": "QuestieDB Forever dataset + TDB rewards; not yet verified against the live Forever client (launches 2026-11-04).",
   "questCount": 4244,
   "zoneCount": 91,
   "questsWithArea": 3260,
   "questsWithSort": 983,
   "questsWithoutZoneOrSort": 1,
+  "questsWithTdbRewards": 4065,
+  "questsWithItems": 1291,
+  "questsWithChoice": 549,
+  "questsWithXp": 3609,
+  "questsWithMoney": 2430,
+  "tdbRowsNotImported": 44557,
+  "tdbOnlyGe90000": 2510,
   "unmappedAreaIds": [
     {
       "areaId": 25,
@@ -31,8 +57,8 @@
   "files": [
     {
       "path": "data/quests.json",
-      "bytes": 1738102,
-      "sha256": "f59ab22907fdd82f0982017623d5f29a9e5df35a930203b3d0b26f3ed4828a8f"
+      "bytes": 2351802,
+      "sha256": "aa03c97dc3a724a673dd87933423d874f8042b00b6d6279d5e84ab17f7bdd44c"
     },
     {
       "path": "data/zones.json",
@@ -41,8 +67,8 @@
     },
     {
       "path": "data/QuestDB.lua",
-      "bytes": 3394042,
-      "sha256": "a1a8e798846b74def72c74f58d13dd50f2723fb0c1810f79940ab256d9fae37c"
+      "bytes": 4807921,
+      "sha256": "a9503f0ad7e59eb0c9da2f044228a4ee98c0ea700198d4646e48fc0bfc93837c"
     }
   ]
 }

@@ -6,11 +6,13 @@ other. The companion app (Tyler's WoW Tools) downloads updates from here.
 
 ## Status
 
-- **Version 1.0.0** — 4,244 quests across 91 zones.
+- **Version 1.1.0** — 4,244 quests across 91 zones, with rewards merged
+  (see below).
 - **Not yet verified against the live Forever client.** The source data is
-  QuestieDB's Forever dataset (see Provenance), but no in-game cross-check
-  has run yet — Forever launches November 4, 2026. Treat quest contents as
-  QuestieDB-curated, not as confirmed live data, until that check happens.
+  QuestieDB's Forever dataset plus TrinityCore's Forever world database
+  (see Provenance), but no in-game cross-check has run yet — Forever
+  launches November 4, 2026. Treat quest contents as curated, not as
+  confirmed live data, until that check happens.
 
 ## What is in here
 
@@ -51,16 +53,36 @@ other. The companion app (Tyler's WoW Tools) downloads updates from here.
 | `objectives` | `{ creatures, objects, items, reputation, killCredits, spells }` — raw rows from the source |
 | `triggerEnd` | `{ text, zones: [{ zoneId, coords: [[x, y], …] }] }` for explore-style objectives |
 | `extraObjectives` | Hidden-objective rows, raw from the source |
-| `rewards.reputation` | `[{ factionId, amount }]` |
+| `rewards.reputation` | `[{ factionId, amount }]` — from QuestieDB |
+| `rewards.items` | `[{ itemId, amount }]` fixed item rewards — from the TDB |
+| `rewards.choice` | `[{ itemId, amount }]` pick-one item rewards — from the TDB |
+| `rewards.xp` | `{ difficulty, multiplier }` — from the TDB (see below) |
+| `rewards.money` | `{ difficulty, multiplier, bonus }` — from the TDB (see below) |
+| `rewardSources` | Which source each reward category came from (`questiedb` / `tdb`) |
+
+XP and money are stored the way the TDB stores them: a difficulty column
+plus a multiplier, resolved to final numbers through the client's QuestXP
+/ QuestMoneyReward tables, plus a flat copper bonus (`money.bonus`, e.g.
+5,400 for quest 444) that needs no lookup. Converting difficulty +
+multiplier to exact XP/copper numbers needs those client tables and is a
+future step — the raw values are recorded faithfully in the meantime.
+TDB reputation columns are intentionally **not** used: reputation comes
+from QuestieDB only, per the project's source split.
 
 ## Known gaps (not invented, not hidden)
 
-- **Item and money rewards are not in this data.** QuestieDB quest records
-  carry reputation rewards only. Item/money rewards live in the live quest
-  offer dialog, not in any quest database we have access to. Options for a
-  later version: record them in-game from offer dialogs, or source them
-  from Wowhead (no public quest API; scraping is fragile). XP rewards are
-  level-formulaic, not per-quest, and are likewise absent.
+- **XP/money difficulty values are unresolved.** `rewards.xp` and
+  `rewards.money` carry the TDB's difficulty + multiplier, not final
+  XP/copper numbers. Only `money.bonus` is directly usable copper.
+- **TDB reputation is unused by design** (see above). Quests with no
+  QuestieDB reputation entry have no reputation reward here, even if the
+  TDB has one.
+- **TDB-only quests are not imported.** The TDB holds 48,801 quest rows
+  across all expansions; 44,557 of them are not in this database, including
+  2,510 with IDs ≥ 90000 (the range new Forever quests use). Importing all
+  of them would flood a Forever database with non-Forever quests, so v1.1.0
+  merges TDB rewards only into the existing 4,244 quests. Deciding which
+  TDB-only quests are genuinely Forever is the next data question.
 - **Starter/finisher names are not included** — only NPC/object/item IDs.
   A future `data/npcs.json` name map (from QuestieDB's Forever NPC data)
   would fill this in.
@@ -92,6 +114,9 @@ next steps; this repo only has to keep the contract above stable.
 #   support/Forever/Zones/areaIdToUiMapId.lua
 #   support/Zones/areaIdToUiMapId.lua
 lua5.1 tools/convert.lua <questDB.lua> <foreverArea.lua> <genericArea.lua> data
+
+# Then merge TDB rewards (QuestieDB rep kept, TDB items/money/XP added):
+python3 tools/merge_tdb_rewards.py <TDB_full_world_forever_*.sql> .
 ```
 
 Then rebuild `manifest.json` with fresh checksums and bump `dataVersion`.
@@ -105,6 +130,16 @@ the field map from the source file itself rather than a hardcoded copy.
 Zone mappings come from QuestieDB's Forever zone tables (reviewed against
 Forever DBC data through build 1.60.1.70291) with the generic tables as
 fallback.
+
+Reward data (v1.1.0) comes from the TrinityCore Forever world database:
+[advocaite/TrinityCore](https://github.com/advocaite/TrinityCore) (`forever`
+branch), release `forever-tdb-2026-10-14`
+(`TDB_full_forever_2026_10_14.7z`, SHA-256
+`373cdca7963927d4d67933032b4b858a811eae0af960d4de4ff19833a88d4f41`),
+built from TrinityCore TDB 1210.26091 plus the branch's updates and custom
+files, with the world converted from VMaNGOS plus Zephras Isle, other
+Forever content, and packet-sniff imports. Only the item, money, and XP
+columns of its `quest_template` are used; reputation stays QuestieDB-only.
 
 This repo is licensed under the **GNU General Public License v3.0**
 (see `LICENSE.md`), matching QuestieDB's license for this derived data.
