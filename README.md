@@ -76,13 +76,16 @@ from QuestieDB only, per the project's source split.
   XP/copper numbers. Only `money.bonus` is directly usable copper.
 - **TDB reputation is unused by design** (see above). Quests with no
   QuestieDB reputation entry have no reputation reward here, even if the
-  TDB has one.
-- **TDB-only quests are not imported.** The TDB holds 48,801 quest rows
-  across all expansions; 44,557 of them are not in this database, including
-  2,510 with IDs ≥ 90000 (the range new Forever quests use). Importing all
-  of them would flood a Forever database with non-Forever quests, so v1.1.0
-  merges TDB rewards only into the existing 4,244 quests. Deciding which
-  TDB-only quests are genuinely Forever is the next data question.
+  TDB has one. Zephras quests are the exception: their reputation comes
+  from NorgannonDB, labeled as such.
+- **TDB-only quests are mostly not imported.** The TDB holds 48,801 quest
+  rows across all expansions; most are not Forever quests. The exception
+  is Zephras Isle: 109 quests (108 confirmed in both the TDB and
+  NorgannonDB with the Forever `Expansion = -2` marker, plus quest 94493
+  "A Sacrifice in Vain", a Zephras quest found in NorgannonDB and
+  referenced by five imported quests) were imported in v1.2.0 as area
+  16593, uiMapId 2521. The other 218 confirmed-Forever quests (new
+  content in other sorts and existing zones) are still pending import.
 - **Starter/finisher names are not included** — only NPC/object/item IDs.
   A future `data/npcs.json` name map (from QuestieDB's Forever NPC data)
   would fill this in.
