@@ -1,0 +1,23 @@
+{
+  "source": "ForeverDB",
+  "source_url": "https://foreverdb.net",
+  "credit": "Data from ForeverDB.net",
+  "api": "https://foreverdb.net/api/v1",
+  "api_meta": {
+    "build": "1.60.1.70707",
+    "levelCap": 30,
+    "items": 22376,
+    "spells": 32057,
+    "quests": 6614,
+    "vendors": 931,
+    "dungeons": 47,
+    "itemSets": 545,
+    "articles": 143,
+    "attribution": "Data from ForeverDB.net (https://foreverdb.net). You must credit ForeverDB.net, with a visible link to https://foreverdb.net, wherever you show this data.",
+    "notAffiliated": "ForeverDB is not affiliated with Blizzard Entertainment.",
+    "sources": "The WoW Forever client's data, what ForeverDB players' addons saw in the game (labelled), Blizzard's posts, and Classic data where Forever's isn't known yet (labelled)."
+  },
+  "quest_count": 3862,
+  "fetched_at_utc": "2026-11-02T06:46:20Z",
+  "note": "ForeverDB-only dataset. Not merged with QuestieDB, TDB or NorgannonDB data."
+}

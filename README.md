@@ -34,6 +34,17 @@ other. The companion app (Tyler's WoW Tools) downloads updates from here.
 - `tools/convert.lua` — the converter that builds the data files from
   QuestieDB sources, so a refresh is a re-run, not a hand edit.
 
+## ForeverDB-only dataset (separate)
+
+`foreverdb/` holds a second dataset built only from ForeverDB's API
+(`https://foreverdb.net/api/v1`) — it is **not** merged with the database
+above, it is not part of `manifest.json`, and it is not part of the
+companion app's download contract. It exists so ForeverDB's observed
+names, locations, and chain links can be compared against the main data
+without mixing sources. See `foreverdb/README.md` for its contents and
+coverage notes. Credit, required by ForeverDB wherever this data is
+shown: <a href="https://foreverdb.net">Data from ForeverDB.net</a>.
+
 ## Quest record format
 
 | Field | Meaning |
